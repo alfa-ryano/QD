@@ -1,0 +1,693 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.30)  14 OCT 2016 22:18
+entering extended mode
+**"./Qualifying Dissertation.tex"
+("Qualifying Dissertation.tex"
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count88
+\c@@ppsavesec=\count89
+\c@@ppsaveapp=\count90
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count95
+\Hy@pagecounter=\count96
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count97
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count98
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5088.
+\XeTeXLinkMargin=\dimen114
+\Fld@menulength=\count99
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count100
+\c@Item=\count101
+\c@Hfootnote=\count102
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+\Fld@listcount=\count103
+\c@bookmark@seq@number=\count104
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 9.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+)
+("Qualifying Dissertation.aux")
+\openout1 = `"Qualifying Dissertation.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen117
+\scratchbox=\box26
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen118
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks17
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box27
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 16.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count111
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+
+("Qualifying Dissertation.out") ("Qualifying Dissertation.out")
+\@outlinefile=\write3
+\openout3 = `"Qualifying Dissertation.out"'.
+
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] ("Qualifying Dissertation
+.toc"
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 ...ne {4.3}Research Outputs}{22}{section.4.3}
+                                                   [1
+
+])
+\tf@toc=\write4
+\openout4 = `"Qualifying Dissertation.toc"'.
+
+ [2]
+Chapter 1.
+[3
+
+]
+Chapter 2.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+<images/smlg.png, id=212, 729.32475pt x 320.397pt>
+File: images/smlg.png Graphic file (type png)
+ <use images/smlg.png>
+Package pdftex.def Info: images/smlg.png used on input line 64.
+(pdftex.def)             Requested size: 256.0748pt x 112.49261pt.
+
+<images/smlg2.png, id=213, 720.89325pt x 292.09125pt>
+File: images/smlg2.png Graphic file (type png)
+ <use images/smlg2.png>
+Package pdftex.def Info: images/smlg2.png used on input line 71.
+(pdftex.def)             Requested size: 256.0748pt x 103.75774pt.
+
+[4
+
+] [5 <./images/smlg.png> <./images/smlg2.png>]
+Chapter 3.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+<images/flow-theory.png, id=226, 318.59026pt x 326.4195pt>
+File: images/flow-theory.png Graphic file (type png)
+
+<use images/flow-theory.png>
+Package pdftex.def Info: images/flow-theory.png used on input line 93.
+(pdftex.def)             Requested size: 113.81102pt x 116.60442pt.
+ [6
+
+]
+<images/scaffolding.png, id=236, 365.56575pt x 146.34676pt>
+File: images/scaffolding.png Graphic file (type png)
+
+<use images/scaffolding.png>
+Package pdftex.def Info: images/scaffolding.png used on input line 105.
+(pdftex.def)             Requested size: 184.9429pt x 74.03738pt.
+
+<images/bloom.png, id=241, 519.74174pt x 389.65575pt>
+File: images/bloom.png Graphic file (type png)
+ <use images/bloom.png>
+Package pdftex.def Info: images/bloom.png used on input line 117.
+(pdftex.def)             Requested size: 170.71652pt x 127.98627pt.
+
+[7 <./images/flow-theory.png> <./images/scaffolding.png>]
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ô in font cmbx12!
+
+<images/kolb.png, id=254, 416.757pt x 404.712pt>
+File: images/kolb.png Graphic file (type png)
+ <use images/kolb.png>
+Package pdftex.def Info: images/kolb.png used on input line 129.
+(pdftex.def)             Requested size: 170.71652pt x 165.78477pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ô in font cmbx12!
+ [8 <./images/bloom.png> <./images/kolb.png>]
+<images/keller.png, id=264, 645.612pt x 247.52475pt>
+File: images/keller.png Graphic file (type png)
+ <use images/keller.png>
+Package pdftex.def Info: images/keller.png used on input line 141.
+(pdftex.def)             Requested size: 199.16928pt x 76.35796pt.
+
+<images/mda.png, id=267, 404.10976pt x 62.634pt>
+File: images/mda.png Graphic file (type png)
+ <use images/mda.png>
+Package pdftex.def Info: images/mda.png used on input line 156.
+(pdftex.def)             Requested size: 227.62204pt x 35.28027pt.
+ [9 <./images/keller.png> <./images/mda.png>]
+<images/werbach.png, id=278, 520.344pt x 422.17725pt>
+File: images/werbach.png Graphic file (type png)
+ <use images/werbach.png>
+Package pdftex.def Info: images/werbach.png used on input line 168.
+(pdftex.def)             Requested size: 170.71652pt x 138.50723pt.
+
+<images/lmgm.png, id=281, 504.6855pt x 433.62pt>
+File: images/lmgm.png Graphic file (type png)
+ <use images/lmgm.png>
+Package pdftex.def Info: images/lmgm.png used on input line 178.
+(pdftex.def)             Requested size: 341.43306pt x 293.36899pt.
+
+<images/abstraction.png, id=283, 745.5855pt x 420.3705pt>
+File: images/abstraction.png Graphic file (type png)
+
+<use images/abstraction.png>
+Package pdftex.def Info: images/abstraction.png used on input line 190.
+(pdftex.def)             Requested size: 227.62204pt x 128.33148pt.
+
+<images/concretisation.png, id=285, 770.88pt x 420.3705pt>
+File: images/concretisation.png Graphic file (type png)
+
+<use images/concretisation.png>
+Package pdftex.def Info: images/concretisation.png used on input line 198.
+(pdftex.def)             Requested size: 227.62204pt x 124.12367pt.
+
+<images/epsilon.png, id=286, 719.68875pt x 398.6895pt>
+File: images/epsilon.png Graphic file (type png)
+
+<use images/epsilon.png>
+Package pdftex.def Info: images/epsilon.png used on input line 207.
+(pdftex.def)             Requested size: 227.62204pt x 126.09886pt.
+ [10 <./images/werbach.png>] [11 <./images/lmgm.png>]
+[12 <./images/abstraction.png> <./images/concretisation.png>]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ∂ in font cmr12!
+ [13 <./images/epsilon.png>]
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [14]
+Overfull \hbox (1.1306pt too wide) in paragraph at lines 266--267
+\OT1/cmr/m/n/12 per-form them si-mul-ta-ne-ously: ra-tio-nal ap-proach and in-t
+u-itive ap-proach (Bobkowska,
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+[15]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
+[16] [17] <images/dsrm.png, id=433, 744.98325pt x 328.8285pt>
+File: images/dsrm.png Graphic file (type png)
+
+<use images/dsrm.png>
+Package pdftex.def Info: images/dsrm.png used on input line 299.
+(pdftex.def)             Requested size: 426.79135pt x 188.38249pt.
+ [18 <./images/dsrm.png>]
+Overfull \hbox (0.27217pt too wide) in paragraph at lines 312--313
+[]\OT1/cmr/bx/n/12 Design and De-vel-op-ment\OT1/cmr/m/n/12 . This re-search wi
+ll em-ploy game-ful de-sign method
+ []
+
+<images/gameful-steps.png, id=443, 744.98325pt x 386.6445pt>
+File: images/gameful-steps.png Graphic file (type png)
+
+<use images/gameful-steps.png>
+Package pdftex.def Info: images/gameful-steps.png used on input line 327.
+(pdftex.def)             Requested size: 227.62204pt x 118.13583pt.
+ [19]
+<images/lenses.png, id=449, 774.4935pt x 274.626pt>
+File: images/lenses.png Graphic file (type png)
+ <use images/lenses.png>
+Package pdftex.def Info: images/lenses.png used on input line 336.
+(pdftex.def)             Requested size: 227.62204pt x 80.71225pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+
+<images/skill-atoms.png, id=451, 396.88275pt x 163.812pt>
+File: images/skill-atoms.png Graphic file (type png)
+
+<use images/skill-atoms.png>
+Package pdftex.def Info: images/skill-atoms.png used on input line 346.
+(pdftex.def)             Requested size: 227.62204pt x 93.9512pt.
+ [20 <./images/gameful-steps.png> <./images/lenses.png> <./images/skill-atoms.p
+ng>]
+Chapter 4.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+[21
+
+] [22] [23]
+Chapter 5.
+
+Package hyperref Warning: No autoref name for `Appendix' on input line 392.
+
+[24
+
+] <images/game-annotated.png, id=497, 1028.34187pt x 578.16pt>
+File: images/game-annotated.png Graphic file (type png)
+
+<use images/game-annotated.png>
+Package pdftex.def Info: images/game-annotated.png used on input line 410.
+(pdftex.def)             Requested size: 426.79135pt x 239.95839pt.
+ [25 <./images/game-annotated.png>]
+<images/editor.png, id=506, 639.13782pt x 355.3275pt>
+File: images/editor.png Graphic file (type png)
+ <use images/editor.png>
+Package pdftex.def Info: images/editor.png used on input line 420.
+(pdftex.def)             Requested size: 426.79135pt x 237.27658pt.
+
+("Qualifying Dissertation.bbl" [26 <./images/editor.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [27
+
+]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
+ [28]) [29]
+Appendix A.
+<images/timetable.png, id=526, 981.06525pt x 508.299pt>
+File: images/timetable.png Graphic file (type png)
+
+<use images/timetable.png>
+Package pdftex.def Info: images/timetable.png used on input line 441.
+(pdftex.def)             Requested size: 426.79135pt x 221.12378pt.
+ [30
+
+ <./images/timetable.png>]
+Appendix B.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+[31
+
+]
+Appendix C.
+Missing character: There is no ¬ in font cmbx12!
+Missing character: There is no ≠ in font cmbx12!
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 458.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 458.
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmbx12!
+Missing character: There is no ≠ in font cmbx12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmbx12!
+Missing character: There is no ≠ in font cmbx12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+ [32
+
+]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ô in font cmbx12!
+Missing character: There is no ¬ in font cmbx12!
+Missing character: There is no ≠ in font cmbx12!
+Missing character: There is no ¬ in font cmbx12!
+Missing character: There is no ≠ in font cmbx12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmbx12!
+Missing character: There is no ≠ in font cmbx12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+ [33]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmbx12!
+Missing character: There is no ≠ in font cmbx12!
+Missing character: There is no ¬ in font cmbx12!
+Missing character: There is no ≠ in font cmbx12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no æ in font cmr12!
+
+[34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 545.
+ [35]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 545.
+ ("Qualifying Dissertation.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 545.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 545.
+Package rerunfilecheck Info: File `"Qualifying Dissertation".out' has not chang
+ed.
+(rerunfilecheck)             Checksum: 78AC6E86A90C6CB684F30F2E6309E69D;2735.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 545.
+ ) 
+Here is how much of TeX's memory you used:
+ 6085 strings out of 493334
+ 91022 string characters out of 3136675
+ 183243 words of memory out of 3000000
+ 9369 multiletter control sequences out of 15000+200000
+ 8847 words of font info for 31 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,9n,28p,1434b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Qualifying Dissertation.pdf" (36 pages, 1993336 bytes).
+PDF statistics:
+ 621 PDF objects out of 1000 (max. 8388607)
+ 184 named destinations out of 1000 (max. 500000)
+ 405 words of extra memory for PDF output out of 10000 (max. 10000000)
+
