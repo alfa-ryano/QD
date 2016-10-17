@@ -1,12 +1,13 @@
 \documentclass[12pt, a4paper]{report}
 \usepackage[titletoc]{appendix}
 \usepackage{graphicx}
-\graphicspath{{images/}} 
+	\graphicspath{{images/}} 
 \usepackage{geometry}
- \geometry{a4paper,left=3cm,top=3cm,bottom=3cm,right=3cm}
-
+	\geometry{a4paper,left=3cm,top=3cm,bottom=3cm,right=3cm}
+\usepackage{array}
+\usepackage{multirow}
 \usepackage{hyperref}
-\hypersetup{colorlinks=true,allcolors=blue}
+	\hypersetup{colorlinks=true,allcolors=blue}
 \usepackage{hypcap}
 
 \setlength{\parindent}{1cm}
@@ -15,14 +16,13 @@
 
 \begin{document}
 
-
 \begin{titlepage}
     \begin{center}
 
 \textbf{Qualifying Dissertation}
 \vspace{1cm}
 
-\textbf{\large Gamification of Software Modelling Learning}
+\textbf{\large Gamified Software Modelling Learning}
 \vspace{1cm}
 
 Alfa Ryano Yohannis\\
@@ -45,16 +45,17 @@ United Kingdom\\
 \end{center}
 \end{titlepage}
 
+
+\begin{abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+Software modelling has a fundamental role in software engineering. However, it is perceived as relatively challenging for learners to develop the necessary abstraction skills to master the subject. On the other side, gamification is now flourishing as a popular strategy to engage learners. This research attempts to exploit gameful design as an innovative approach, used to create games that reinforce learners' mastery of software modelling by developing their abstraction skills. Our approach to gameful design brings together gamification development concepts such as the Lens of Intrinsic Skill Atoms, and pedagogical design principles from several learning theories and models. The research follows the Design Science Research Methodology and exploits Model-Driven Engineering best practices. The target outputs of this research are a modelling game design and generation framework, and a number of games produced using it. The effectiveness of the framework and its games will be evaluated using controlled experiments.
+
+\end{abstract}
+
 \tableofcontents
 \addcontentsline{toc}{chapter}{Contents}
 
-\chapter{Abstract}
-Software modelling has a fundamental role in software engineering. However, it is perceived as relatively challenging for learners to develop the necessary abstraction skills to master the subject. On the other side, gamification is now flourishing as a popular strategy to engage learners. This research attempts to exploit gameful design as an innovative approach, used to create games that reinforce learners' mastery of software modelling by developing their abstraction skills. Our approach to gameful design brings together gamification development concepts such as the Lens of Intrinsic Skill Atoms, and pedagogical design principles from several learning theories and models. The research follows the Design Science Research Methodology and exploits Model-Driven Engineering best practices. The target outputs of this research are a modelling game design and generation framework, and a number of games produced using it. The effectiveness of the framework and its games will be evaluated using controlled experiments.
-
 \chapter{Introduction}
-
-
-
 This research is motivated by the growing attention towards the application of gamification in various fields \cite{kolovos2015eugenia}. Gamification itself is defined as transforming an entity to become more gameful by embedding game-associated characteristics into the entity without losing its original intended functions. The common goal of gamification is improving user’s engagement with the entity through motivating by making the entity more fun. We perceive this as an opportunity to apply gamification as well to software modelling courses. Software modelling is a subject that is seen challenging to students since it requires lots of abstraction. Thus, students who didn’t possess this kind of ability might be hindered and demotivated. Employing gamification is expected will support the students to maintain their engagement along the courses and, therefore, improve their learning outcomes. 
 
 However, in applying the gamification, we faced a challenge that there are only several papers available that discuss the application of game characteristics in software modelling and most of them are still in the preliminary research, covering only small specific topics of software modelling. Modelling, metamodelling, and model management, the core concepts of model-driven software engineering, haven’t been covered yet.  Therefore, we believe that there is a need to extend existing gamification of software modelling works to cover those core concepts as well. The gamification itself is expected can also extend our existing approaches in teaching and learning software modelling. The purpose of this research is to study the gamification of software modelling with emphasis on (1) to what extend gamification improves the learning outcomes of software modelling learning, (2) understanding the process of how gamification improves the learning outcomes, and (3) the design of gamification of software modelling learning manifested in the form of gamification frameworks.
@@ -145,7 +146,7 @@ To maintain the motivation of learners in a process of learning, first, we need 
 
 \section{Ludology}
 
-\section{Serious Games and Gamification}
+\subsection{Serious Games and Gamification}
 
 
 \subsection{Hunicke's MDA Model}
@@ -250,7 +251,7 @@ Tools design are the principles in designing software modelling tools. Since we 
 \item Use papers, tools designed for pedagogy, or use mainstream tools \cite{Akayama2013}.
 \item The usage of modelling tools is not important in the beginning, but later when modelling task becomes larger \cite{bezivin2009teaching}.
 \item A good experience with the tool has a positive inﬂuence on the students’ view of UML and modelling in general \cite{liebel2015ready}.
-\item Support for tool usage greatly affects student satisfaction. Provide Tool Expert and carefully design the instructions if you are using Industry Modelling Tool \cite{liebel2015ready}. For an example, Papyrus is suitable for a classroom environment given the right level of support \cite{liebel2015ready}.
+\item Support for tool usage greatly affects student satisfaction. Provide Tool Expert and carefully design the instructions if you are using Industry Modelling Tool \cite{liebel2015ready}. For an example, Papyrus is suitable for a classroom environment if given the right level of support \cite{liebel2015ready}.
 \item Give positive reinforcement to learners \cite{lethbridge2014teaching}.
 \item The tools gives maximum opportunities for learning \cite{lethbridge2014teaching}.
 \item The tool convinces learners of the value of what they learn \cite{lethbridge2014teaching}.
@@ -387,11 +388,69 @@ This could be achieved through Learning and Game Analytics and Structural Equati
 \chapter{Preliminary Results}
 
 \section{Preliminary Survey}
-We have conducted our preliminary survey to identify user needs, motivations, and hurdles in order to meet the Research phase of Deterding's gameful steps. This is also inline to the Design Science Research Methodology, which in the first activity we need to identify the problem and motivation so we can define objectives of a solution accurately in the second activity. 
+In this research, we have conducted our preliminary survey. The survey was executed to identify learners' needs, motivations, and hurdles according to the Research phase of the Deterding's gameful steps. This is also inline to the Design Science Research Methodology, which in the first activity we need to identify the problem and motivation so we can define objectives of a solution accurately in the second activity. 
 
-We have distributed online questionnaires to the students of Model Driven Engineering (MoDE) 2015/2016 module. The students were in their Software Engineering master programme at the University of York. From 21 students, only 4 of them completed the questionnaires. The results can be found in Appendix  \autoref{chap:Preliminary Survey Data}.
+We have distributed online questionnaires to our respondents, students of Model Driven Engineering (MoDE) 2015/2016 module. The students were in their Software Engineering master programme at the University of York. From 21 students, only 4 completed the questionnaires. Their responses can be found in Appendix \autoref{chap:Preliminary Survey Data}.
+
+\textbf{Results}. In order to identify the learners' needs, we asked our respondents question 1 and question 2. Question 1 aims to identify students' expectation before starting the module, while question 2 asked to identify what the students found important after taking the module. Based on the responses, the reasons why the students took MoDE module because they want to increase their knowledge on MDE, posses new advance skills or abilities, and improve their literation of MDE tools. After completing the module, the students valued that the most important lessons were getting new knowledge--domain modelling, metamodel, abstract syntax, abstract thinking, model validation, and the application of models--and skills--generating code, creating DSL, and improving their tool skills.   
+
+We also asked the students question 3, 4, and 5 to identify their motivation in taking MoDE module and learning Model Driven Engineering.  Question 3 asked about the reasons behind their decision taking MoDE module. Two students stated that they took them module because it is compulsory, but the rest of the students said that they took the module because MDE is an advance topic and they wanted to see its applicability in industry and whether it will improve their ability--knowledge and skills. 
+
+Question 4 asked the students about what would motivate them more to learn Model Driven Engineering (MDE). The students gave feedback that they would be more motivated if they could perceive the advantages of MDE: efficiency and effectiveness it could give, the benefits of its application in the organization or real world examples, and its genericity--MDE application in languages other than Java or models other than UML/EMF.
+
+We then asked question 5 which asked the students the most basic, underlying motives that make them commit to learn MDE. Substantially, they answered that their main motivation is to gain new ability--knowledge and skills, such as ability to make abstraction, advance skills that applicable in industry, and knowledge of reallife examples and applications of different models taught in MDE. Nevertheless, passing MoDE module, a pragmatical motives, still part of the whole motivation.  
+
+In question 6 and 7, we asked the students about the interesting challenges that they faced during MoDE module. They mentioned abstract thinking and model management activities such as defining metamodel, validating model, and how to best model a system--satisfying the model's metamodel and validation so the model could be easily queried and transformed). To overcome the challenges, what they did are performing trial-and-error method or experimenting the problems, try many other examples, and completing all the practicals. We summarised all of these efforts as activities to build 'experience'.
+
+We also asked them question 8 and 9 about the non-interesting challenges, extraneous challenges that are not relevant to the core activities of modelling.  They mentioned these activities: dealing with very specific technical concepts/words that only belong to specific products, focusing too much on how to use tools in other words using very tedious tools or less information on how to use the tools, and judging the quality of a model since there was no explanation of how good of bad the model was. To deal with the the uninteresting challenges, they just ignore them, seeking information and solutions from internet, lecturers, assistants, and discussion groups, and redid building the solutions from the beginning when they had certain problems using the tools.
+
+\textbf{Discussion}. There are few takeaways from the preliminary interview in terms of students' needs, motivations, and challenges, that can be implemented into the design of a gamified software modelling learning. \textit{First}, the need of the students to learn MDE is to gain new advance abilities--knowledge and skills--that are applicable in industry, which, if broken drown, they comprise of model management activities (abstract thinking, modelling, metamodelling, model transformation, validation, and application) and tool literacy. 
+
+\textit{Second}, the the motivations of the students to learn MDE are, regardless their view on MoDE module as compulsary in their programme, they were aware that their motivation should be on satisfying their need in gaining advance knowledge and skills in MDE, as mentioned previously, and they would me more motivated if they could perceive the advantages and applicability of MDE, thus showing students the benefits and applications of MDE is very important in increasing their motivation.
+
+\textit{Third}, they mentioned model management activities (abstract thinking, model validation, metamodelling, etc.) as the interesting challenges. To overcome the challenges, they did trial-and-error method to gain more experience in overcoming the challenges. This is in line to experiential learning which states learning is at it's best through experiencing \cite{kolb2014experiential}. The main concern of gameful design is to reduce the cost of  performing such activities so learners could focus on the core activities without hassles. This could be done by dividing the activities into smaller activity chunks and removing the extraneous, unrelated activities \cite{deterding2015lens}. 
+
+The extraneous, unrelated activities were identified by asking question 8 and 9, which was to identify the uninteresting challenges. Most of the complains were on the tools which were tedious to use. They also argued that there was no need to learn the detailed technical concepts or terms that were only specific to certain products. To overcome the uninteresting challenges, the students preferred to seek information and solutions from on internet, lecturers, and discussion groups. Thus, it is very important to provide comprehensive documentations and supports of the tools used in a learning activity  \cite{liebel2015ready}.      
 
 \section{Requirements}
+
+
+\newcounter{rowcount}
+\setcounter{rowcount}{0}
+\begin{center}
+\begin{tabular}{ |p{2cm}|p{1cm}|p{10cm}| } 
+\hline
+Category & Code & Literature Review \\
+\hline
+\multirow{3}{2cm}{Contents} 
+& RL01 & Teach MDE Definition \\ 
+& RL02 & Teach semantics, syntaxes, notations \\ 
+& RL03 & Teach Modelling, metamodelling, model validation, model transformation\\
+& RL04 & Teach the applications of MDE \\
+& RL05 & Teach modelling in various domains/contexts \\
+
+\hline
+\multirow{3}{2cm}{Priciples and Practices} 
+& RL06 & Modelling is abstract thinking \\ 
+& RL07 & Object-orientation prerequisite \\
+& RL08 & Measure student's model's quality \\
+& RL09 & Problem solving first, detail specifications and tools get in the way \\
+& RL10 & Provide support to solutions, not answers \\ 
+& RL11 & Teach broadly, throughoutly, not deeply \\
+& RL12 & Teach with different modelling languages \\  
+& RL13 & Make it fun \\ 
+\hline
+\multirow{3}{2cm}{Tool Design}
+& RL14 & Support and documentation \\
+& RL15 & Build knowledge incrementally \\
+& RL16 & Flexibility to explore learning \\
+& RL17 & Positive reinforcement \\
+& RL18 & Convincing the value of learning \\ 
+& RL19 & High usability \\ 
+& RL20 & Inexpensive tool \\ 
+\hline
+\end{tabular}
+\end{center}
 
 
 \section{Game Design}
@@ -507,6 +566,7 @@ conforms to a formally­defined model
 \item I felt sometimes that I could not apply all principles in the practicals­ especially on how we think abstract.
 \item Working out how to best model a system, which had been defined informally, in EMF and EVL while keeping all its constraints intact and making it easily queryable and transformable was interesting.
 \end{itemize}
+
 
 
 \item  \textbf{How did you manage to overcome these challenges?}
