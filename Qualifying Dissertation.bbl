@@ -21,11 +21,77 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{kolovos2015eugenia}
-D.~S. Kolovos, A.~Garc{\'\i}a-Dom{\'\i}nguez, L.~M. Rose, and R.~F. Paige,
-  ``Eugenia: towards disciplined and automated development of gmf-based
-  graphical model editors,'' \emph{Software \& Systems Modeling}, pp. 1--27,
-  2015.
+\bibitem{Borstler2012}
+J.~B{\"o}rstler, L.~Kuzniarz, C.~Alphonce, W.~B. Sanders, and M.~Smialek,
+  ``Teaching software modeling in computing curricula,'' in \emph{Proceedings
+  of the final reports on Innovation and technology in computer science
+  education 2012 working groups}.\hskip 1em plus 0.5em minus 0.4em\relax ACM,
+  2012, pp. 39--50.
+
+\bibitem{whittle2013industrial}
+J.~Whittle, J.~Hutchinson, M.~Rouncefield, H.~Burden, and R.~Heldal,
+  ``Industrial adoption of model-driven engineering: Are the tools really the
+  problem?'' in \emph{International Conference on Model Driven Engineering
+  Languages and Systems}.\hskip 1em plus 0.5em minus 0.4em\relax Springer,
+  2013, pp. 1--17.
+
+\bibitem{bezivin2009teaching}
+J.~Bezivin, R.~France, M.~Gogolla, O.~Haugen, G.~Taentzer, and D.~Varro,
+  ``Teaching modeling: why, when, what?'' in \emph{International Conference on
+  Model Driven Engineering Languages and Systems}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2009, pp. 55--62.
+
+\bibitem{engels2005teaching}
+G.~Engels, J.~H. Hausmann, M.~Lohmann, and S.~Sauer, ``Teaching uml is teaching
+  software engineering is teaching abstraction,'' in \emph{International
+  Conference on Model Driven Engineering Languages and Systems}.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 2005, pp. 306--319.
+
+\bibitem{Kramer2007}
+J.~Kramer, ``Is abstraction the key to computing?'' \emph{Communications of the
+  ACM}, vol.~50, no.~4, pp. 36--42, 2007.
+
+\bibitem{hazzan2008reflections}
+O.~Hazzan, ``Reflections on teaching abstraction and other soft ideas,''
+  \emph{ACM SIGCSE Bulletin}, vol.~40, no.~2, pp. 40--43, 2008.
+
+\bibitem{Duval2006}
+R.~Duval, ``A cognitive analysis of problems of comprehension in a learning of
+  mathematics,'' \emph{Educational studies in mathematics}, vol.~61, no. 1-2,
+  pp. 103--131, 2006.
+
+\bibitem{Saitta2013}
+L.~Saitta and J.-D. Zucker, \emph{Abstraction in artificial intelligence and
+  complex systems}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2013, vol.
+  456.
+
+\bibitem{deterding2011game}
+S.~Deterding, D.~Dixon, R.~Khaled, and L.~Nacke, ``From game design elements to
+  gamefulness: defining gamification,'' in \emph{Proceedings of the 15th
+  international academic MindTrek conference}.\hskip 1em plus 0.5em minus
+  0.4em\relax ACM, 2011, pp. 9--15.
+
+\bibitem{Michael2005}
+D.~R. Michael and S.~L. Chen, \emph{Serious games: Games that educate, train,
+  and inform}.\hskip 1em plus 0.5em minus 0.4em\relax Muska \&
+  Lipman/Premier-Trade, 2005.
+
+\bibitem{connolly2012systematic}
+T.~M. Connolly, E.~A. Boyle, E.~MacArthur, T.~Hainey, and J.~M. Boyle, ``A
+  systematic literature review of empirical evidence on computer games and
+  serious games,'' \emph{Computers \& Education}, vol.~59, no.~2, pp. 661--686,
+  2012.
+
+\bibitem{hamari2014does}
+J.~Hamari, J.~Koivisto, and H.~Sarsa, ``Does gamification work?--a literature
+  review of empirical studies on gamification,'' in \emph{2014 47th Hawaii
+  International Conference on System Sciences}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2014, pp. 3025--3034.
+
+\bibitem{Pedreira2015}
+O.~Pedreira, F.~Garc{\'\i}a, N.~Brisaboa, and M.~Piattini, ``Gamification in
+  software engineering--a systematic mapping,'' \emph{Information and Software
+  Technology}, vol.~57, pp. 157--168, 2015.
 
 \bibitem{csikszentmihalyi2014toward}
 M.~Csikszentmihalyi, ``Toward a psychology of optimal experience,'' in
@@ -80,18 +146,18 @@ M.~Brambilla, J.~Cabot, and M.~Wimmer, ``Model-driven software engineering in
   practice,'' \emph{Synthesis Lectures on Software Engineering}, vol.~1, no.~1,
   pp. 1--182, 2012.
 
+\bibitem{kolovos2015eugenia}
+D.~S. Kolovos, A.~Garc{\'\i}a-Dom{\'\i}nguez, L.~M. Rose, and R.~F. Paige,
+  ``Eugenia: towards disciplined and automated development of gmf-based
+  graphical model editors,'' \emph{Software \& Systems Modeling}, pp. 1--27,
+  2015.
+
 \bibitem{borstler2012teaching}
 J.~B{\"o}rstler, L.~Kuzniarz, C.~Alphonce, W.~B. Sanders, and M.~Smialek,
   ``Teaching software modeling in computing curricula,'' in \emph{Proceedings
   of the final reports on Innovation and technology in computer science
   education 2012 working groups}.\hskip 1em plus 0.5em minus 0.4em\relax ACM,
   2012, pp. 39--50.
-
-\bibitem{bezivin2009teaching}
-J.~Bezivin, R.~France, M.~Gogolla, O.~Haugen, G.~Taentzer, and D.~Varro,
-  ``Teaching modeling: why, when, what?'' in \emph{International Conference on
-  Model Driven Engineering Languages and Systems}.\hskip 1em plus 0.5em minus
-  0.4em\relax Springer, 2009, pp. 55--62.
 
 \bibitem{ober2007teaching}
 I.~Ober, ``Teaching mda: From pyramids to sand clocks,'' in \emph{Symposium at
@@ -102,13 +168,6 @@ R.~F. Paige, F.~A. Polack, D.~S. Kolovos, L.~M. Rose, N.~Matragkas, and J.~R.
   Williams, ``Bad modelling teaching practices,'' in \emph{Proceedings of the
   ACM/IEEE 17th International Conference on Model Driven Engineering Languages
   and Systems (MoDELS’14), Valencia, Spain}, 2014.
-
-\bibitem{whittle2013industrial}
-J.~Whittle, J.~Hutchinson, M.~Rouncefield, H.~Burden, and R.~Heldal,
-  ``Industrial adoption of model-driven engineering: Are the tools really the
-  problem?'' in \emph{International Conference on Model Driven Engineering
-  Languages and Systems}.\hskip 1em plus 0.5em minus 0.4em\relax Springer,
-  2013, pp. 1--17.
 
 \bibitem{Akayama2013}
 S.~Akayama, B.~Demuth, T.~C. Lethbridge, M.~Scholz, P.~Stevens, and D.~R.
@@ -125,11 +184,6 @@ T.~C. Lethbridge, ``Teaching modeling using umple: Principles for the
   development of an effective tool,'' in \emph{2014 IEEE 27th Conference on
   Software Engineering Education and Training (CSEE\&T)}.\hskip 1em plus 0.5em
   minus 0.4em\relax IEEE, 2014, pp. 23--28.
-
-\bibitem{Pedreira2015}
-O.~Pedreira, F.~Garc{\'\i}a, N.~Brisaboa, and M.~Piattini, ``Gamification in
-  software engineering--a systematic mapping,'' \emph{Information and Software
-  Technology}, vol.~57, pp. 157--168, 2015.
 
 \bibitem{Stikkolorum2014}
 D.~R. Stikkolorum, M.~R. Chaudron, and O.~de~Bruin, ``The art of software

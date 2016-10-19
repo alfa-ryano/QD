@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.30)  19 OCT 2016 07:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.30)  19 OCT 2016 20:24
 entering extended mode
 **"./Qualifying Dissertation.tex"
 ("Qualifying Dissertation.tex"
@@ -213,37 +213,64 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 10.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
+Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count105
+)
+\csq@reset=\count106
+\csq@gtype=\count107
+\csq@glevel=\count108
+\csq@qlevel=\count109
+\csq@maxlvl=\count110
+\csq@tshold=\count111
+\csq@ltx@everypar=\toks17
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
+File: csquotes.def 2016/07/14 v5.1h csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+File: csquotes.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
 ("Qualifying Dissertation.aux")
 \openout1 = `"Qualifying Dissertation.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
+\scratchcounter=\count112
 \scratchdimen=\dimen120
 \scratchbox=\box26
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count108
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count115
 \MPscratchDim=\dimen121
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks18
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks19
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -300,7 +327,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 17.
+Package hyperref Info: Link coloring ON on input line 18.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -308,11 +335,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count111
+\c@section@level=\count118
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 
 ("Qualifying Dissertation.out") ("Qualifying Dissertation.out")
 \@outlinefile=\write3
@@ -325,7 +352,7 @@ tination with the same identifier (name{page.1}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.53 \end{abstract}
+l.54 \end{abstract}
                     [1] ("Qualifying Dissertation.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 5.
@@ -343,7 +370,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 ... {3.2}Aim and Objectives}{22}{section.3.2}
+l.36 ... {3.2}Aim and Objectives}{23}{section.3.2}
                                                    [1
 
 ])
@@ -355,127 +382,139 @@ Chapter 1.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-<images/smlg.png, id=220, 729.32475pt x 320.397pt>
-File: images/smlg.png Graphic file (type png)
- <use images/smlg.png>
-Package pdftex.def Info: images/smlg.png used on input line 65.
-(pdftex.def)             Requested size: 256.0748pt x 112.49261pt.
-
-<images/smlg2.png, id=221, 720.89325pt x 292.09125pt>
-File: images/smlg2.png Graphic file (type png)
- <use images/smlg2.png>
-Package pdftex.def Info: images/smlg2.png used on input line 72.
-(pdftex.def)             Requested size: 256.0748pt x 103.75774pt.
-
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 73.
 [3
 
-] [4 <./images/smlg.png> <./images/smlg2.png>]
+] <images/gamification-trend.png, id=250, 721.4955pt x 281.25075pt>
+File: images/gamification-trend.png Graphic file (type png)
+
+<use images/gamification-trend.png>
+Package pdftex.def Info: images/gamification-trend.png used on input line 77.
+(pdftex.def)             Requested size: 341.43306pt x 133.09766pt.
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no Å in font cmr12!
+ [4 <./images/gamification-trend.png>]
+<images/smlg.png, id=273, 729.32475pt x 320.397pt>
+File: images/smlg.png Graphic file (type png)
+ <use images/smlg.png>
+Package pdftex.def Info: images/smlg.png used on input line 92.
+(pdftex.def)             Requested size: 426.79135pt x 187.4926pt.
+
+[5 <./images/smlg.png>]
 Chapter 2.
-<images/flow-theory.png, id=234, 318.59026pt x 326.4195pt>
+<images/smlg2.png, id=280, 720.89325pt x 292.09125pt>
+File: images/smlg2.png Graphic file (type png)
+ <use images/smlg2.png>
+Package pdftex.def Info: images/smlg2.png used on input line 105.
+(pdftex.def)             Requested size: 256.0748pt x 103.75774pt.
+
+[6
+
+ <./images/smlg2.png>]
+<images/flow-theory.png, id=288, 318.59026pt x 326.4195pt>
 File: images/flow-theory.png Graphic file (type png)
 
 <use images/flow-theory.png>
-Package pdftex.def Info: images/flow-theory.png used on input line 95.
+Package pdftex.def Info: images/flow-theory.png used on input line 121.
 (pdftex.def)             Requested size: 113.81102pt x 116.60442pt.
- [5
 
-]
-<images/scaffolding.png, id=244, 365.56575pt x 146.34676pt>
+<images/scaffolding.png, id=292, 365.56575pt x 146.34676pt>
 File: images/scaffolding.png Graphic file (type png)
 
 <use images/scaffolding.png>
-Package pdftex.def Info: images/scaffolding.png used on input line 107.
+Package pdftex.def Info: images/scaffolding.png used on input line 133.
 (pdftex.def)             Requested size: 184.9429pt x 74.03738pt.
-
-<images/bloom.png, id=249, 519.74174pt x 389.65575pt>
+ [7 <./images/flow-theory.png> <./images/scaffolding.png>] <images/bloom.png, i
+d=305, 519.74174pt x 389.65575pt>
 File: images/bloom.png Graphic file (type png)
- <use images/bloom.png>
-Package pdftex.def Info: images/bloom.png used on input line 119.
-(pdftex.def)             Requested size: 170.71652pt x 127.98627pt.
 
-[6 <./images/flow-theory.png> <./images/scaffolding.png>]
+<use images/bloom.png>
+Package pdftex.def Info: images/bloom.png used on input line 145.
+(pdftex.def)             Requested size: 170.71652pt x 127.98627pt.
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
-
-<images/kolb.png, id=262, 416.757pt x 404.712pt>
+ <images/kolb.png, id=308, 416.757pt x 404.712pt>
 File: images/kolb.png Graphic file (type png)
- <use images/kolb.png>
-Package pdftex.def Info: images/kolb.png used on input line 129.
+
+<use images/kolb.png>
+Package pdftex.def Info: images/kolb.png used on input line 155.
 (pdftex.def)             Requested size: 170.71652pt x 165.78477pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [7 <./images/bloom.png> <./images/kolb.png>]
+ [8 <./images/bloom.png>]
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ô in font cmbx12!
 
-<images/keller.png, id=272, 645.612pt x 247.52475pt>
+<images/keller.png, id=319, 645.612pt x 247.52475pt>
 File: images/keller.png Graphic file (type png)
  <use images/keller.png>
-Package pdftex.def Info: images/keller.png used on input line 145.
+Package pdftex.def Info: images/keller.png used on input line 171.
 (pdftex.def)             Requested size: 199.16928pt x 76.35796pt.
 
-[8 <./images/keller.png>] <images/mda.png, id=282, 404.10976pt x 62.634pt>
+[9 <./images/kolb.png>] <images/mda.png, id=328, 404.10976pt x 62.634pt>
 File: images/mda.png Graphic file (type png)
 
 <use images/mda.png>
-Package pdftex.def Info: images/mda.png used on input line 160.
+Package pdftex.def Info: images/mda.png used on input line 186.
 (pdftex.def)             Requested size: 227.62204pt x 35.28027pt.
- <images/werbach.png, id=285, 520.344pt x 422.17725pt>
+ <images/werbach.png, id=331, 520.344pt x 422.17725pt>
 File: images/werbach.png Graphic file (type png)
 
 <use images/werbach.png>
-Package pdftex.def Info: images/werbach.png used on input line 172.
+Package pdftex.def Info: images/werbach.png used on input line 198.
 (pdftex.def)             Requested size: 170.71652pt x 138.50723pt.
- <images/lmgm.png, id=288, 504.6855pt x 433.62pt>
+ [10 <./images/keller.png> <./images/mda.png>]
+<images/lmgm.png, id=343, 504.6855pt x 433.62pt>
 File: images/lmgm.png Graphic file (type png)
-
-<use images/lmgm.png>
-Package pdftex.def Info: images/lmgm.png used on input line 182.
+ <use images/lmgm.png>
+Package pdftex.def Info: images/lmgm.png used on input line 208.
 (pdftex.def)             Requested size: 341.43306pt x 293.36899pt.
- [9 <./images/mda.png> <./images/werbach.png>]
-<images/abstraction.png, id=298, 745.5855pt x 420.3705pt>
+
+<images/abstraction.png, id=345, 745.5855pt x 420.3705pt>
 File: images/abstraction.png Graphic file (type png)
 
 <use images/abstraction.png>
-Package pdftex.def Info: images/abstraction.png used on input line 194.
+Package pdftex.def Info: images/abstraction.png used on input line 221.
 (pdftex.def)             Requested size: 227.62204pt x 128.33148pt.
-
-<images/concretisation.png, id=300, 770.88pt x 420.3705pt>
+ [11 <./images/werbach.png> <./images/lmgm.png>]
+<images/concretisation.png, id=354, 770.88pt x 420.3705pt>
 File: images/concretisation.png Graphic file (type png)
 
 <use images/concretisation.png>
-Package pdftex.def Info: images/concretisation.png used on input line 202.
+Package pdftex.def Info: images/concretisation.png used on input line 229.
 (pdftex.def)             Requested size: 227.62204pt x 124.12367pt.
 
-<images/epsilon.png, id=301, 719.68875pt x 398.6895pt>
+<images/epsilon.png, id=355, 719.68875pt x 398.6895pt>
 File: images/epsilon.png Graphic file (type png)
 
 <use images/epsilon.png>
-Package pdftex.def Info: images/epsilon.png used on input line 211.
+Package pdftex.def Info: images/epsilon.png used on input line 238.
 (pdftex.def)             Requested size: 227.62204pt x 126.09886pt.
- [10 <./images/lmgm.png> <./images/abstraction.png>]
-[11 <./images/concretisation.png> <./images/epsilon.png>]
+ [12 <./images/abstraction.png> <./images/concretisation.png> <./images/epsilon
+.png>] [13]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ∂ in font cmr12!
- [12]
+ [14]
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Ç in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [13]
-Overfull \hbox (1.1306pt too wide) in paragraph at lines 271--272
+
+Overfull \hbox (1.1306pt too wide) in paragraph at lines 299--300
 \OT1/cmr/m/n/12 per-form them si-mul-ta-ne-ously: ra-tio-nal ap-proach and in-t
 u-itive ap-proach (Bobkowska,
  []
 
+[15]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -488,38 +527,38 @@ Missing character: There is no î in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no î in font cmr12!
-[14]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no î in font cmr12!
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+ [16]
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
-[16] <images/dsrm.png, id=439, 744.98325pt x 328.8285pt>
+[17] <images/dsrm.png, id=486, 744.98325pt x 328.8285pt>
 File: images/dsrm.png Graphic file (type png)
  <use images/dsrm.png>
-Package pdftex.def Info: images/dsrm.png used on input line 304.
+Package pdftex.def Info: images/dsrm.png used on input line 332.
 (pdftex.def)             Requested size: 426.79135pt x 188.38249pt.
 
-[17 <./images/dsrm.png>]
-Overfull \hbox (0.27217pt too wide) in paragraph at lines 317--318
+[18]
+Overfull \hbox (0.27217pt too wide) in paragraph at lines 345--346
 []\OT1/cmr/bx/n/12 Design and De-vel-op-ment\OT1/cmr/m/n/12 . This re-search wi
 ll em-ploy game-ful de-sign method
  []
 
-[18] <images/gameful-steps.png, id=455, 744.98325pt x 386.6445pt>
+[19 <./images/dsrm.png>]
+<images/gameful-steps.png, id=501, 744.98325pt x 386.6445pt>
 File: images/gameful-steps.png Graphic file (type png)
 
 <use images/gameful-steps.png>
-Package pdftex.def Info: images/gameful-steps.png used on input line 332.
+Package pdftex.def Info: images/gameful-steps.png used on input line 360.
 (pdftex.def)             Requested size: 227.62204pt x 118.13583pt.
 
-<images/lenses.png, id=457, 774.4935pt x 274.626pt>
+<images/lenses.png, id=503, 774.4935pt x 274.626pt>
 File: images/lenses.png Graphic file (type png)
  <use images/lenses.png>
-Package pdftex.def Info: images/lenses.png used on input line 341.
+Package pdftex.def Info: images/lenses.png used on input line 369.
 (pdftex.def)             Requested size: 227.62204pt x 80.71225pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -534,130 +573,131 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 
-<images/skill-atoms.png, id=459, 396.88275pt x 163.812pt>
+[20 <./images/gameful-steps.png> <./images/lenses.png>]
+<images/skill-atoms.png, id=511, 396.88275pt x 163.812pt>
 File: images/skill-atoms.png Graphic file (type png)
 
 <use images/skill-atoms.png>
-Package pdftex.def Info: images/skill-atoms.png used on input line 351.
+Package pdftex.def Info: images/skill-atoms.png used on input line 379.
 (pdftex.def)             Requested size: 227.62204pt x 93.9512pt.
- [19 <./images/gameful-steps.png> <./images/lenses.png>] [20 <./images/skill-at
-oms.png>]
+ [21 <./images/skill-atoms.png>]
 Chapter 3.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no î in font cmr12!
-[21
+[22
 
-] [22] [23]
+] [23] [24]
 Chapter 4.
 
-Package hyperref Warning: No autoref name for `Appendix' on input line 406.
+Package hyperref Warning: No autoref name for `Appendix' on input line 434.
 
-[24
+[25
 
-] [25]
-Overfull \hbox (3.86331pt too wide) in paragraph at lines 439--439
+] [26]
+Overfull \hbox (3.86331pt too wide) in paragraph at lines 467--467
 []|\OT1/cmr/m/n/12 Motivations|  
  []
 
 
-Overfull \vbox (14.5pt too high) detected at line 443
+Overfull \vbox (14.5pt too high) detected at line 471
  []
 
 
-Overfull \vbox (29.0pt too high) detected at line 447
+Overfull \vbox (29.0pt too high) detected at line 475
  []
 
-[26]
-Underfull \hbox (badness 1377) in paragraph at lines 471--472
+[27]
+Underfull \hbox (badness 1377) in paragraph at lines 499--500
 []|\OT1/cmr/m/n/12 Teach Mod-elling, meta-mod-elling, model val-i-da-tion,
  []
 
 
-Overfull \vbox (29.0pt too high) detected at line 476
+Overfull \vbox (29.0pt too high) detected at line 504
  []
 
 
-Overfull \vbox (14.5pt too high) detected at line 486
+Overfull \vbox (14.5pt too high) detected at line 514
  []
 
-[27] <images/learning-models.png, id=542, 548.0475pt x 330.63525pt>
+[28] <images/learning-models.png, id=588, 548.0475pt x 330.63525pt>
 File: images/learning-models.png Graphic file (type png)
 
 <use images/learning-models.png>
-Package pdftex.def Info: images/learning-models.png used on input line 507.
+Package pdftex.def Info: images/learning-models.png used on input line 535.
 (pdftex.def)             Requested size: 426.79135pt x 257.48581pt.
 
-<images/learning-models2.png, id=543, 489.62926pt x 369.7815pt>
+<images/learning-models2.png, id=589, 489.62926pt x 369.7815pt>
 File: images/learning-models2.png Graphic file (type png)
 
 <use images/learning-models2.png>
-Package pdftex.def Info: images/learning-models2.png used on input line 514.
+Package pdftex.def Info: images/learning-models2.png used on input line 542.
 (pdftex.def)             Requested size: 426.79135pt x 322.32231pt.
- [28 <./images/learning-models.png>] [29 <./images/learning-models2.png>]
-Overfull \vbox (14.5pt too high) detected at line 539
+ [29 <./images/learning-models.png>] [30 <./images/learning-models2.png>]
+Overfull \vbox (14.5pt too high) detected at line 567
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 540--540
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 568--568
 []|\OT1/cmr/m/n/12 RM01| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 541--541
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 569--569
 []|\OT1/cmr/m/n/12 RM02| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 542--542
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 570--570
 []|\OT1/cmr/m/n/12 RM03| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 543--543
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 571--571
 []|\OT1/cmr/m/n/12 RM04| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 544--544
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 572--572
 []|\OT1/cmr/m/n/12 RM05| 
  []
 
-[30] <images/game-annotated.png, id=577, 1028.34187pt x 578.16pt>
+[31] <images/game-annotated.png, id=623, 1028.34187pt x 578.16pt>
 File: images/game-annotated.png Graphic file (type png)
 
 <use images/game-annotated.png>
-Package pdftex.def Info: images/game-annotated.png used on input line 556.
+Package pdftex.def Info: images/game-annotated.png used on input line 584.
 (pdftex.def)             Requested size: 426.79135pt x 239.95839pt.
- [31 <./images/game-annotated.png>]
-<images/editor.png, id=586, 639.13782pt x 355.3275pt>
+ [32 <./images/game-annotated.png>]
+<images/editor.png, id=632, 639.13782pt x 355.3275pt>
 File: images/editor.png Graphic file (type png)
  <use images/editor.png>
-Package pdftex.def Info: images/editor.png used on input line 576.
+Package pdftex.def Info: images/editor.png used on input line 604.
 (pdftex.def)             Requested size: 426.79135pt x 237.27658pt.
 
-("Qualifying Dissertation.bbl" [32 <./images/editor.png>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [33
+("Qualifying Dissertation.bbl" [33 <./images/editor.png>] [34
 
 ]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [35]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ô in font cmti12!
- [34]) [35]
+ [36])
+[37]
 Appendix A.
-<images/timetable.png, id=606, 981.06525pt x 508.299pt>
+<images/timetable.png, id=656, 981.06525pt x 508.299pt>
 File: images/timetable.png Graphic file (type png)
 
 <use images/timetable.png>
-Package pdftex.def Info: images/timetable.png used on input line 599.
+Package pdftex.def Info: images/timetable.png used on input line 627.
 (pdftex.def)             Requested size: 426.79135pt x 221.12378pt.
- [36
+ [38
 
  <./images/timetable.png>]
 Appendix B.
@@ -670,19 +710,19 @@ Missing character: There is no Å in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[37
+[39
 
 ]
 Appendix C.
 Missing character: There is no ¬ in font cmbx12!
 Missing character: There is no ≠ in font cmbx12!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 616.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 644.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 616.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 644.
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
 Missing character: There is no ¬ in font cmbx12!
@@ -699,7 +739,7 @@ Missing character: There is no ¬ in font cmbx12!
 Missing character: There is no ≠ in font cmbx12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
- [38
+ [40
 
 ]
 Missing character: There is no ¬ in font cmr12!
@@ -721,7 +761,7 @@ Missing character: There is no ¬ in font cmbx12!
 Missing character: There is no ≠ in font cmbx12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
- [39]
+ [41]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
 Missing character: There is no ¬ in font cmbx12!
@@ -737,33 +777,36 @@ Missing character: There is no ≠ in font cmr12!
 Missing character: There is no Õ in font cmr12!
 Missing character: There is no æ in font cmr12!
 
-[40]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 704.
- [41]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 704.
+[42]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 732.
+ [43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 732.
  ("Qualifying Dissertation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 704.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 704.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 732.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 732.
 Package rerunfilecheck Info: File `"Qualifying Dissertation".out' has not chang
 ed.
-(rerunfilecheck)             Checksum: A1B6BE21E2BF20681178EDB43BB1665B;2883.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 704.
+(rerunfilecheck)             Checksum: 0CB4277252999A6A4A38C88C9AFA41D4;2883.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 732.
  ) 
 Here is how much of TeX's memory you used:
- 6184 strings out of 493334
- 92713 string characters out of 3136675
- 189105 words of memory out of 3000000
- 9442 multiletter control sequences out of 15000+200000
- 8847 words of font info for 31 fonts, out of 3000000 for 9000
+ 7049 strings out of 493334
+ 105387 string characters out of 3136675
+ 213424 words of memory out of 3000000
+ 10277 multiletter control sequences out of 15000+200000
+ 9015 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,28p,1434b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,11n,28p,1434b,579s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Qualifying Dissertation.pdf" (43 pages, 2084343 bytes).
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "Qualifying Dissertation.pdf" (45 pages, 2185168 bytes).
 PDF statistics:
- 706 PDF objects out of 1000 (max. 8388607)
- 201 named destinations out of 1000 (max. 500000)
- 431 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 771 PDF objects out of 1000 (max. 8388607)
+ 217 named destinations out of 1000 (max. 500000)
+ 436 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,6 +9,7 @@
 \usepackage{hyperref}
 	\hypersetup{colorlinks=true,allcolors=blue}
 \usepackage{hypcap}
+\usepackage{csquotes}
 
 \setlength{\parindent}{1cm}
 \setlength{\parskip}{0.1cm}
@@ -48,7 +49,7 @@ United Kingdom\\
 
 \begin{abstract}
 \addcontentsline{toc}{chapter}{Abstract}
-Software modelling has a fundamental role in software engineering. However, it is perceived as relatively challenging for learners to develop the necessary abstraction skills to master the subject. On the other side, gamification is now flourishing as a popular strategy to engage learners. This research attempts to exploit gameful design as an innovative approach, used to create games that reinforce learners' mastery of software modelling by developing their abstraction skills. Our approach to gameful design brings together gamification development concepts such as the Lens of Intrinsic Skill Atoms, and pedagogical design principles from several learning theories and models. The research follows the Design Science Research Methodology and exploits Model-Driven Engineering best practices. The target outputs of this research are a modelling game design and generation framework, and some games produced using it. The effectiveness of the framework and its games will be assessed through controlled experiments.
+Software modelling has a fundamental role in software engineering. However, it is perceived as relatively challenging for learners to develop the necessary modelling skills to master the subject. On the other side, gamification is now flourishing as a popular strategy to engage learners. This research attempts to exploit gameful design as an innovative approach, used to create games that reinforce learners' mastery of software modelling by developing their abstraction skills. Our approach to gameful design brings together gamification development concepts such as the Lens of Intrinsic Skill Atoms, and pedagogical design principles from several learning theories and models. The research follows the Design Science Research Methodology and exploits Model-Driven Engineering best practices. The target outputs of this research are a modelling game design and generation framework, and some games produced using it. The effectiveness of the framework and its games will be assessed through controlled experiments.
 
 \end{abstract}
 
@@ -56,16 +57,48 @@ Software modelling has a fundamental role in software engineering. However, it i
 \addcontentsline{toc}{chapter}{Contents}
 
 \chapter{Introduction}
-This research is motivated by the growing attention towards the application of gamification in various fields \cite{kolovos2015eugenia}. Gamification itself is defined as transforming an entity to become more gameful by embedding game-associated characteristics into the entity without losing its original intended functions. The common goal of gamification is improving user’s engagement with the entity through motivating by making the entity more fun. We perceive this as an opportunity to apply gamification as well to software modelling courses. Software modelling is a subject that is seen challenging to students since it requires lots of abstraction. Thus, students who did not possess this kind of ability might be hindered and demotivated. Employing gamification is expected will support the students to maintain their engagement along the courses and, therefore, improve their learning outcomes. 
 
-However, in applying the gamification, we faced a challenge that there are only several papers available that discuss the application of game characteristics in software modelling and most of them are still in the preliminary research, covering only small specific topics of software modelling. Modelling, metamodelling, and model management, the core concepts of model-driven software engineering, haven’t been covered yet.  Therefore, we believe that there is a need to extend existing gamification of software modelling works to cover those core concepts as well. The gamification itself is expected can also extend our existing approaches in teaching and learning software modelling. The purpose of this research is to study the gamification of software modelling with emphasis on (1) to what extend gamification improves the learning outcomes of software modelling learning, (2) understanding the process of how gamification improves the learning outcomes, and (3) the design of gamification of software modelling learning manifested in the form of gamification frameworks.
+Software modelling is commonly perceived as a demanding subject since it requires a mastery of abstraction \cite{Borstler2012}. However, this subject has a fundamental and crucial role in software engineering education and practice. Failure to master this topic will affect the student’s abstraction capability which is essential for analysing and designing real-world software. Successful application of software modelling requires skills in abstract modelling \cite{whittle2013industrial}. The modelling itself is the process to think abstractly about systems \cite{bezivin2009teaching}. Thus, teaching modelling also means teaching abstraction \cite{engels2005teaching}. Therefore, it is crucial to make students understand the value of abstraction \cite{bezivin2009teaching}. Weak software modelling skills will likely cause software engineering students to face further with their degrees, as most of the software engineering related subjects involve of intrinsic abstraction problems \cite{Kramer2007}. In the context of computer science and software engineering education, Kramer and Hazzan argued abstraction is the central theme or key skill for computing \cite{Kramer2007, hazzan2008reflections}.
+
+\begin{displayquote}
+"I believe that abstraction is a key skill for computing. It is essential during requirements engineering to elicit the critical aspects of the environment \dots At design time  \dots Even at the implementation stage \dots " --- Kramer \cite{Kramer2007}.
+\end{displayquote}
+
+\begin{displayquote}
+" \dots software is an intangible object, and hence, requires highly developed cognitive skills for coping  with different levels of abstraction." --- Hazzan \cite{hazzan2008reflections}.
+\end{displayquote}
+
+The problems of learning appropriate abstraction skills for software modelling is similar to problems in mathematics, where most of the concepts can only be accessed through symbolical representations \cite{Duval2006}. Abstraction also requires students to grasp skills in information hiding, generalisation, approximation or reformulation, and separating relevant from irrelevant aspects \cite{Saitta2013}. To overcome these challenges, we need to put more effort into software modelling learning design, developing a more concrete and motivating presentation which can engage students and facilitate deep learning.
+
+In the recent years, the use of games or game elements for purposes other than leisure has drawn significant attention.  Gamification \cite{deterding2011game} and Serious Games \cite{Michael2005} (further we use 'Gamified Approach' term to comprise both concepts) have been proposed as solutions to motivational problems that emerge when users are required to engage in activities that they perceived as boring, irrelevant, or difficult. Figure \ref{gamification-trend} shows us the growth of "Gamification" on Google Trends\footnote{\url{https://www.google.com/trends/explore?date=all&q=\%22gamification\%22}} since  February 2010.  
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=9cm]{smlg}
-\caption{How to 'Cook' a Gameful Software Modelling Learning?}
-\label{fig:smlg}
+\includegraphics[width=12cm]{gamification-trend}
+\caption{"Gamification" on Google Trends per 12 April 2016.}
+\label{gamification-trend}
 \end{figure}
+
+Real-world examples that show the success of the Gamified Approach are Duolingo\footnote{\url{https://www.duolingo.com/
+}} and Re-mission\footnote{\url{http://www.re-mission.net/
+}}. Duolingo is a gamification of language learning. It embeds game elements, such as points, levels, and lives, to make language learning more fun. Re-mission is a third person shooting game dedicated to young cancer patients and designed to teach and learn how to deal with cancer. The patients are invited involve in an entertaining game play that will affect their specific behavioral and psychological outcomes toward effective cancer therapy.
+      
+Through systematic review, Connolly et al. studied the impacts of computer games and serious games regarding engagement and learning in diverse fields. They reported manjority of the studies presented empirical evidence about the positive impacts of computer games and serious games  \cite{connolly2012systematic}. Using the same type of method, Hamari et al. found that according to the most of the reviewed papers, gamification does generate benefits and positive effects \cite{hamari2014does}. Specifically in the field of software engineering, Pedreira el al. also performed  systematic review to investigate the application of gamification in software engineering.  Most of the studies  focus on software development, project management, requirements, and other support areas, but none of them focus on software modelling. They also found less studies reported empirical evidence of their work. They argued that existing studies in the field is quite new, thus more research effort is needed in investigating the impact of gamiﬁcation in software engineering \cite{Pedreira2015}. 
+
+The report of positive impact of Gamified Approach in various fields encourages us to apply the Gamified Approach in software modelling learning, a subject that seems overlooked for applying gamification. This condition broadens our opportunity to produce novel research contribution regarding the application of gamification in the field of software modelling. Grounded on this background, we then propose our research to investigate and develop software modelling learning games. Since our study is the scope of Model Driven Engineering, we also plan to develop a design framework for the games that will systematically and semi-automatically drives gamification design to produce software modelling learning games. Essentially, our study lies in the intersection between software modelling, learning, and games as depicted in Figure \ref{smlg}. Therefore, we considered to include extensive pedagogical aspect into our study since we are going to address software modelling mainly in it's learning context.    
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{smlg}
+\caption{How to 'Cook' a Gameful Software Modelling Learning?}
+\label{smlg}
+\end{figure}
+
+This qualifying dissertation is organised as follows. First, we introduce our research in Section 1. We then explain the literature review in Section 2 and propose the research proposal in Section 3. Finally, in Section 4, we end this qualifying dissertation with discussion on our preliminary results. 
+
+\chapter{Field Survey and Review}
+
+Since the research of the gamification of software modelling learning is multidisciplinary, it is best to organise the literature review categorised by the contributing fields, including the subtopics resulting from the interaction between them. So far, we have identified three major contributing fields, the software modelling itself, ludology, and pedagogy as well. They will be discussed in the following subsections and a brief review of the research methodology ends this chapter.
 
 \begin{figure}[ht]
 \centering
@@ -73,13 +106,6 @@ However, in applying the gamification, we faced a challenge that there are only 
 \caption{Topics the gamification of software modelling learning.}
 \label{fig:smlg2}
 \end{figure}
-
-We explain the literature review in Section 2 and propose the research proposal in Section 3. In Section 4, we describe the preliminary results. Finally, we end this qualifying dissertation with conclusions in Section 5.
-
-
-\chapter{Field Survey and Review}
-
-Since the research of the gamification of software modelling learning is multidisciplinary, it is best to organise the literature review categorised by the contributing fields, including the subtopics resulting from the interaction between them. So far, we have identified three major contributing fields, the software modelling itself, ludology, and pedagogy as well. They will be discussed in the following subsections and a brief review of the research methodology ends this chapter.
 
 \section{Pedagogy}
 \label{Pedagogy}
@@ -188,6 +214,7 @@ Learning Mechanics-Game Mechanics (LMGM) Model consists of 2 sets of mechanics: 
 \section{Software Modelling}
 
 \subsection{What is Software Modelling?}
+
 concretisation
 \begin{figure}[ht]
 \centering
@@ -213,6 +240,7 @@ concretisation
 \label{fig:epsilon}
 \end{figure}
 
+\subsection{Software Modelling Course at the University of York}
 
 
 \subsection{Software Modelling Teaching}
@@ -271,7 +299,7 @@ There are some available strategies in teaching abstraction. Familiarity, Simila
 There are two approaches of learning software modelling which a learner may perform them simultaneously: rational approach and intuitive approach (Bobkowska, 2014). Usually at the beginning of modelling process, one uses his existing knowledge and logical reasoning to understand and develop software models, and sometimes preceded with empirical activities. However, there are situations in software modelling when his existing knowledge and methodology-based, logical reasoning are not enough to make him understand or to develop a software model. Thus, make him relies on his own intuition or both approaches interplay in dealing with complex, difficult modelling. In line with Bobkowska's statement, in building a model on the correct level of abstraction, one needs a certain intuition and skill which cannot be gain through lectures but have to be experienced through exercises (Engels et al., 2006).
 
 \subsection{Gamified Software Modelling}
-Most of the gamification studies available are dominantly relates to software engineering in a larger context or other aspects of software engineering, such as software implementation and project management, rather than software modelling in particular \cite{Pedreira2015}. Several studies that apply gamification specifically for software modelling are the works of Stikkolorum et al. \cite{Stikkolorum2014}, Ionita et al. \cite{Ionita2015}, Groenewegen et al. \cite{Groenewegen2010}, and Richardsen \cite{Richardsen2014}. These works are selected because they develop artefacts based on gamification approach, apply them to software modelling, and validate the results. 
+Most of the gamification studies available are dominantly relates to software engineering in a larger context or other aspects of software engineering, such as software implementation and project management, rather than software modelling in particular \cite{Pedreira2015}. Several studies that apply gamification specifically for software modelling are the works of Stikkolorum et al. \cite{Stikkolorum2014}, Ionita et al. \cite{Ionita2015}, Groenewegen et al. \cite{Groenewegen2010}, and Richardsen \cite{Richardsen2014}. These works are selected because they develop artefacts based on gamification approach, apply them to software modelling, and validate the results.
 
 \subsubsection{Puzzle Game to Teach Software Design Principles}
 Stikkolorum et al. \cite{Stikkolorum2014} developed a game that is intended to teach software design principles, such as cohesion, coupling, information hiding, and modularity in software design.They tried to look for a solution that provides balance between coupling and cohesion by using the toolbox to draw classes, methods, attributes, and relationships between them. They applied game elements like puzzle game, game levels, visual and audio feedbacks, progress indicator, level unlocking, choice of path, multiple solutions, scoring. For the pedagogical aspect, they mentioned Bloom’s taxonomy in their work. However, they did not explain how they integrated the taxonomy into their work. After using their game, users started to talk regarding classes, methods, and associations instead of boxes, blocks, and lines, indication unconscious learning. The challenges of their work were on determining scores because there are more than one solutions for a problem. To determine coupling, they used Coupling Between Classes (CBO). Cohesion was measured by comparing all items—attributes, methods, class name—in a class that have similar keywords. Information hiding and modularity is evaluated using general design patterns. They validate their design by conducting user test and utilise the 'think aloud' method—asking users to tell their thoughts while using the game. 
@@ -291,7 +319,7 @@ In the context of activity diagram learning, Richardsen  \cite{Richardsen2014} d
 Based on the previous four related works, we concluded that different concepts of software modelling were addressed. However, no use of game elements that addresses abstraction regarding modelling, meta-modelling, and model transformation in particular, which mean there is an opportunity for research on that area. We also found that different specific concepts were addressed with different approaches and game elements which also challenge us to develop a more generic design in addressing software modelling learning problem. The good news is all of the works reported that the use of game and game elements has positive effect in motivating and engaging users in varying degree. Furthermore, every study has their own challenges which are a good thing to be aware of when carrying our research. The drawbacks of other works are, first, most of the them did not consider seriously about pedagogical aspect of their solution and, second,in general, their validation was weak regarding sample size and lack discussion of internal validity.
 
 
-\subsection{Software Modelling Course at the University of York}
+
 
 \section{Research Methodology}
 The software modelling learning game design framework will be derived deductively mainly from existing related theories and research works that come from the fields of education, games, and software modelling. The resulting framework will be tested in several case studies for validation and the test results will be inputs to revise the framework. Since the outputs of the research will be design artefacts, Design Science Research Methodology \cite{peffers2007design} is selected as the research methods as it provides a comprehensive conceptual framework and activity guidelines for understanding, developing, executing, and evaluating design artefacts. We also implements Deterding's Gameful Design Steps \cite{deterding2015lens} to guide the design of the gameful aspect of the the product.
