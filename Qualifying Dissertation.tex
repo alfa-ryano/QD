@@ -124,14 +124,16 @@ We see the potential of using the Bloom's Taxonomy activities to design the acti
 \subsection{Kolb’s Experiential Learning Model}
 Kolb's Experiential Learning Model is a model of teaching and learning through experience and reflection on actions \cite{kolb2014experiential}. It states that knowledge development is a product of experience or iterative search. This model implies that software modelling learning game should allow learners to perform active experimentation and develop their own understanding. 
 
-The model is a cycle of four steps: abstraction conceptualisation, active experimentation, concrete experience, and reflective observation. In the case of didactic learning with practicals, learners are firstly taught about the theory. In this step learners perform abstract conceptualisation. They then move to the practicals which they are asked to perform some active experimentation of the theory they got in the class. Through the experimentation they feel the the concrete experience. The results might be to some degree confirm to or disagree with the theory. In the end, through reflective observation, the results are then reconciled with the knowledge they had built based on the theory, whether the knowledge is updated or not.   
-
 \begin{figure}[ht]
 \centering
 \includegraphics[width=6cm]{kolb}
 \caption{Kolb’s Experiential Learning Model \cite{kolb2014experiential}.}
 \label{fig:kolb}
 \end{figure}
+
+The model is a cycle of four steps: abstraction conceptualisation, active experimentation, concrete experience, and reflective observation. In the case of didactic learning with practicals, learners are firstly taught about the theory. In this step learners perform abstract conceptualisation. They then move to the practicals which they are asked to perform some active experimentation of the theory they got in the class. Through the experimentation they feel the the concrete experience. The results might be to some degree confirm to or disagree with the theory. In the end, through reflective observation, the results are then reconciled with the knowledge they had built based on the theory, whether the knowledge is updated or not.   
+
+For an example, when the first time a player tries a new game, he undergoes concrete experience with the game (Concrete Experience phase). He then tries to identify and characterise the game through recalling any knowledge that is relevant to the game (Reflective Observation phase). Next, he constructs a definition of the game that he plays (Abstract Conceptualization phase). After constructing the definition, he the tries to apply the definition into the game (Active Experimentation phase), experience the result, (Concrete Experience phase again), and then evaluate whether the experience fits with the definition of the game or not (Reflective Observation again). Any gap that appears will update the existing definition to produce a new definition of the game (Abstract Conceptualisation) that will be implemented again in the next phase (Active Experimentation phase.
 
 \subsection{Keller’s ARCS Motivational Learning Model}
 Keller's Motivational Model is a set of steps for promoting and maintaining motivation in a learning process \cite{keller2010motivational}. The steps are attention, relevance, confidence, and satisfaction. This model is useful for  designing the flow of a stage or level of a software modelling learning game as it mentions steps that we need to focus in order to maintain learners' motivation.
@@ -423,9 +425,38 @@ We also asked them question 8 and 9 about the non-interesting challenges, extran
 
 The extraneous, unrelated activities were identified by asking question 8 and 9, which was to identify the uninteresting challenges. Most of the complains were on the tools which were tedious to use. They also argued that there was no need to learn the detailed technical concepts or terms that were only specific to certain products. To overcome the uninteresting challenges, the students preferred to seek information and solutions from on internet, lecturers, and discussion groups. Thus, it is very important to provide comprehensive documentations and supports of the tools used in a learning activity  \cite{liebel2015ready}. 
 
+\begin{table}[ht]
+\caption{Requirements derived from the preliminary survey (section \ref{Preliminary Survey}).}
+\label{table:preliminary-survey}
+\begin{center}
+\begin{tabular}{ p{2cm}p{1cm}p{10cm} } 
+\hline
+Category & Code & Requirements from Preliminary Survey \\
+\hline
+\multirow{1}{2cm}{Needs} 
+& RS01 & Teach them knowledge and skills that are applicable in industry: model management (abstract thinking, modelling, metamodelling, model transformation, validation, and application) and tool literacy. \\ 
+\hline
+\multirow{1}{2cm}{Motivations}
+& RS02 & Promote gaining advance knowledge and skills in MDE. \\ 
+& RS03 & Promote the benefits and applications of MDE. \\ 
+\hline
+\multirow{1}{2cm}{Interesting Challenges}
+& RS04 & Challenge with model management activities (abstract thinking, model validation, metamodelling, etc.). \\ 
+& RS05 & Scaffold the learning process to support learners gaining their experience (for an example, dividing the activities into smaller activity chunks). \\ 
+\hline
+\multirow{1}{2cm}{Un-interesting Challenges}
+& RS06 & Increase the usability of the tool being used. \\ 
+& RS07 & No need to learn the detailed technical terms specific to certain products. \\ 
+& RS08 & Provide documentation and support of the tool being used. \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
 \section{Design Requirements}
 Throughout the literature review, we have gathered requirements, which are the key points pointed out by MDE experts how we should teach MDE. Table \ref{table:requirements} is a list of requirements summarised from the literature review in section \ref{Software Modelling Teaching}. We make an assumption that if the design of our gamified software modelling learning satisfies these requirements, it will increase the probability of the design will succeed supporting learners in learning software modelling. These requirements have two roles. First, they are guidance to our design process and, second, they will also act as units of evaluation to confirm our design are consistent and our gamified software modelling learning is developed upon the works of others.      
    
+We also derive other requirements from our preliminary survey in section \ref{Preliminary Survey}. These requirements (Table \ref{table:preliminary-survey}) have the same role as other requirements derived from the literature review, except that these requirements   address the needs, motivations, and challenges in designing the gameful aspect of gamified software modelling learning. From our requirement identification, we found out that the items in the Contents category (Table \ref{table:requirements}) agrees with the item in the Needs category (Table \ref{table:preliminary-survey}). This suggests an agreement about the learning contents that should be delivered to students in learning MDE.
 
 \begin{table}[ht]\caption{Requirements derived from the literature review (section \ref{Software Modelling Teaching}).}
 \label{table:requirements}
@@ -434,7 +465,7 @@ Throughout the literature review, we have gathered requirements, which are the k
 \hline
 Category & Code & Requirements from Literature Review \\
 \hline
-\multirow{3}{2cm}{Contents} 
+\multirow{1}{2cm}{Contents} 
 & RL01 & Teach MDE Definition \\ 
 & RL02 & Teach semantics, syntaxes, notations \\ 
 & RL03 & Teach Modelling, metamodelling, model validation, model transformation\\
@@ -442,7 +473,7 @@ Category & Code & Requirements from Literature Review \\
 & RL05 & Teach modelling in various domains/contexts \\
 
 \hline
-\multirow{3}{2cm}{Priciples and Practices} 
+\multirow{1}{2cm}{Priciples and Practices} 
 & RL06 & Modelling is abstract thinking \\ 
 & RL07 & Object-orientation prerequisite \\
 & RL08 & Measure student's model's quality \\
@@ -452,7 +483,7 @@ Category & Code & Requirements from Literature Review \\
 & RL12 & Teach with different modelling languages \\  
 & RL13 & Make it fun \\ 
 \hline
-\multirow{3}{2cm}{Tool Design}
+\multirow{1}{2cm}{Tool Design}
 & RL14 & Support and documentation \\
 & RL15 & Build knowledge incrementally \\
 & RL16 & Flexibility to explore learning \\
@@ -465,46 +496,11 @@ Category & Code & Requirements from Literature Review \\
 \end{center}
 \end{table}
 
-
-We also derive other requirements from our preliminary survey in section \ref{Preliminary Survey}. These requirements (Table \ref{table:preliminary-survey}) have the same role as other requirements derived from the literature review, except that these requirements   address the needs, motivations, and challenges in designing the gameful aspect of gamified software modelling learning. From our requirement identification, we found out that the items in the Contents category (Table \ref{table:requirements}) agrees with the item in the Needs category (Table \ref{table:preliminary-survey}). This suggests an agreement about the learning contents that should be delivered to students in learning MDE.
-
-\begin{table}[ht]
-\caption{Requirements derived from the preliminary survey (section \ref{Preliminary Survey}).}
-\label{table:preliminary-survey}
-\begin{center}
-\begin{tabular}{ p{2cm}p{1cm}p{10cm} } 
-\hline
-Category & Code & Requirements from Preliminary Survey \\
-\hline
-\multirow{3}{2cm}{Needs} 
-& RS01 & Teach them knowledge and skills that are applicable in industry: model management (abstract thinking, modelling, metamodelling, model transformation, validation, and application) and tool literacy. \\ 
-\hline
-\multirow{3}{2cm}{Motivations}
-& RS02 & Promote gaining advance knowledge and skills in MDE. \\ 
-& RS03 & Promote the benefits and applications of MDE. \\ 
-\hline
-\multirow{3}{2cm}{Interesting Challenges}
-& RS04 & Challenge with model management activities (abstract thinking, model validation, metamodelling, etc.). \\ 
-& RS05 & Scaffold the learning process to support learners gaining their experience (for an example, dividing the activities into smaller activity chunks). \\ 
-\hline
-\multirow{3}{2cm}{Un-interesting Challenges}
-& RS06 & Increase the usability of the tool being used. \\ 
-& RS07 & No need to learn the detailed technical terms specific to certain products. \\ 
-& RS08 & Provide documentation and support of the tool being used. \\ 
-\hline
-\end{tabular}
-\end{center}
-\end{table}
-
 \section{Elaborating Design and Learning Models}
+\label{Elaborating Design and Learning Models}
 In section \ref{Pedagogy}, we have proposed several existing learning models that we will apply in the design process of our software modelling learning game. In this section, we will explain the relationships between the learning models, their contributions, and how they will be applied to the design of the game are depicted in in Figure \ref{learning-models} and Figure \ref{learning-models2}.
 
 We decided to implement challenge as the fundamental game element that exists in the design of our game since it is one of the main characteristics that exist in every game. Challenge is a crucial game element since it stimulates and provokes a player to engage in a game. We translate challenge into series of levels in our design and of course higher levels generally come with higher difficulty. To realise this, we borrow the learning activities--remember, understand, apply, analyse, evaluate, create--from Bloom's taxonomy, since every activity has different cognitive loads according to their order with 'create' has the highest cognitive load. We assume that an activity with higher cognitive load is also more difficult to complete. Therefore, we can make varying combinations between the activities that will gradually increase in difficulty (cognitive load) along the increase of the levels (Figure \ref{learning-models}). Bloom's taxonomy also act as an inventory of activities that provide us many options of activities that could give variability in our design. 
-
-While learners are progressing from levels to levels, they are developing their competence. Thus, difficulty has to be keep balanced with their competence, unless they will get bored. This is the situation where the theory of Flow can be applied (Figure \ref{learning-models}). To control the degree of the difficulty, there are three ways we identified so far related to pedagogical approach: combination of Bloom's activities, introduction of new concepts, and application in different domains. The order of the levels of each of the three ways has to be arranged properly following the theory of Flow. Concepts that are easier are given earlier than the harder ones and the difficulty is increased gradually as learners progress. Likewise, Application in the domains that are more familiar with learners should be given first and gradually shifted to the domains that are most unfamiliar (Figure \ref{learning-models}. Combining these three dimensions--types of activities, concepts, and domains--could give us variety of levels with different degrees of difficulties.
-
-
-
 
 \begin{figure}[ht]
 \centering
@@ -520,8 +516,47 @@ While learners are progressing from levels to levels, they are developing their 
 \label{learning-models2}
 \end{figure}
 
+While learners are progressing from levels to levels, they are developing their competence. Thus, difficulty has to be keep balanced with their competence, unless they will get bored. This is the situation where the theory of Flow can be applied (Figure \ref{learning-models}). To control the degree of the difficulty, there are three ways we identified so far related to pedagogical approach: combination of Bloom's activities, introduction of new concepts, and application in different domains. The order of the levels of each of the three ways has to be arranged properly following the theory of Flow. Concepts that are easier are given earlier than the harder ones and the difficulty is increased gradually as learners progress. Likewise, Application in the domains that are more familiar with learners should be given first and gradually shifted to the domains that are most unfamiliar (Figure \ref{learning-models}. Combining these three dimensions--types of activities, concepts, and domains--could give us variety of levels with different degrees of difficulties.
+
+Motivation is an important aspect in the success of learning and we use Keller's ARCS motivational model to address this aspect \cite{keller2010motivational}. we assume that one course of a level is similar to one course of a class meeting, from start to end and between then there are learning activities (Figure \ref{learning-models}). The model provides us in each of it's components--attention, relevance, confidence, satisfaction--a set of predefined techniques to maintain learners' motivation. We could apply this techniques also to maintain learners' motivation along the course of completing a level. As an example, we could use animation to gain learners' attention, explaining the application of the concept being taught in the currently playing level to give relevance, showing their progress in completing a level to maintain their confidence, and giving them reward after finishing a level for reward.
+           
+We will also apply scaffolding \cite{vygotsky1978mind, wood1976role} to support learners coping challenges (Figure \ref{learning-models}). During the course learners completing a level, scaffolding could be given in several ways: reducing large modelling activities into smaller activity constituents, removing irrelevant activities, providing an almost complete model so they can work on the most relevant activities rather than building the model from scratch, providing help and documentation, and giving some clues of the solutions when they get stuck. Some of this supports will be reduced as players progressing in order to maintain the balance between their increasing competence and difficulty--reducing scaffolding means increasing difficulty.  
+
+We also considering to apply Kolb's experiential learning model, which is a model that agrees knowledge is constructed through experience and based its model on constructivism \cite{kolb2014experiential}. We select Kolb's model since we perceive that playing a level in a game is similar to the learning cycle Kolb proposed; a cycle consists of 4 steps: concrete experience (CE), reflective observation (RO), abstract conceptualisation (AC), and active experimentation (AE). 
+
+We could apply this cycle to frame learners' activities in gaining new knowledge through solving a problem given in a level. For an example, the first time a player plays a new level, at that moment he encounters a concrete experience (CE). Immediately, He attempts to identify and characterise the problem given in that level and recall any knowledge that is relevant to solve the problem (RO). Next, he constructs a solution for the problem that he faces (AC). After constructing the solution, he applies the solution to the problem (AE), experiences the result (CE), and then evaluates whether the solution solve the problem of the level or not (RO). Any gap that appears will update his knowledge. He uses his newly updated knowledge to produce a new solution (AC) that could be applied to the same problem in the same level or different problem in other levels (AE). In case that the player already 'Game Over' and he cannot apply his new solution, AE occurs when he replays the same level or plays another level.
+
+Learning activities in Bloom's taxonomy are also corresponds to the steps in Kolb's learning cycle \cite{murphy2007prior} and both have been applied together to design instructions in different fields \cite{terry1993kolb, howard1996felder, schatzberg2002applying}. Thefor, we argued that both could be applied simultaneously; Bloom's taxonomy provides learning activities while Kolb's model addresses learning cycles in the design of our game. To simplify our work, we summarise the elaboration of design and learning models into a list of requirements (Table \ref{design-learning-models}) that will be used in the design and evaluation activities.
+
+\begin{table}[ht]
+\caption{Requirements derived from learning models (section \ref{Elaborating Design and Learning Models}).}
+\label{design-learning-models}
+\begin{center}
+\begin{tabular}{ p{2cm}p{1cm}p{10cm} } 
+\hline
+Category & Code & Requirements from Learning Models \\
+\hline
+\multirow{1}{2cm}{Learning Models} 
+& RM01 & Design satisfies Bloom's taxonomy. \\
+& RM02 & Design suffices Kolb's experiential learning model. \\ 
+& RM03 & Design meets Keller's ARCS motivational model. \\
+& RM04 & Design fulfils scaffolded learning. \\
+& RM05 & Design complies with the theory of Flow. \\      
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
 \section{Game Design}
 Gamification has been successfully for a variety of purposes, but there is very little work on software modelling gamification. We wish to assess whether gamification is beneficial for learners of graphical software modelling languages. For each modelling language, we envision the development of a dedicated game containing game elements that will be derived from the Lens of Intrinsic Skill Atoms \cite{deterding2015lens}. The generated game will mimic a graphical modelling tool and at each level, it will require the learner to graphically construct or adapt a model to satisfy a set of requirements and constraints.
+
+\begin{figure}[ht]
+\centering
+\frame{\includegraphics[width=\textwidth]{game-annotated}}
+\caption{The display of the generated game.}
+\label{fig:001}
+\end{figure}
 
 The game will have levels with gradually increasing difficulty as well as variety in its challenges, to expose learners to different kinds of domains, models, and diagrams. Tutorials are planned to be embedded into the game to help learners familiarise themselves with the control system and the flow of the game. 
 
@@ -531,12 +566,7 @@ A real-world problem can be very complex and time-consuming to model. Thus, the 
 
 To reduce bias, we plan to experiment with several modelling languages (e.g. BPMN, state-charts, GSN, UML). We also plan to implement these games using web technologies so that they are easily accessible to a wide audience.
 
-\begin{figure}[ht]
-\centering
-\frame{\includegraphics[width=\textwidth]{game-annotated}}
-\caption{The display of the generated game.}
-\label{fig:001}
-\end{figure}
+
 
 \section{Modelling Game Design Framework}
 Instead of developing the software modelling games manually, we plan to follow a model-based approach. We will use metamodel annotations, in the spirit of Eugenia \cite{kolovos2015eugenia}, to define the graphical syntaxes of modelling languages and separate models to specify the game elements (levels, objectives, constraints, etc.) of each game. These models will be then consumed by a model-to-text transformation to produce fully-functional language-specific games. Therefore, the framework supports software modelling tutors in the design and customisation of the games at the high level of abstraction and so as to automatically build the game. So far we have implemented a metamodel for specifying game elements (flows, levels, challenges, and objectives) and a supporting Eclipse-based graphical editor (Fig. \ref{fig:002}), and a prototype game (Fig. \ref{fig:001}) for object diagrams. 
@@ -547,6 +577,8 @@ Instead of developing the software modelling games manually, we plan to follow a
 \caption{Graphical editor for the game specification DSL.}
 \label{fig:002}
 \end{figure}
+
+
 
 
 
@@ -570,7 +602,7 @@ The planned research schedule can be found in Table 1. In three years, this work
 \chapter{Publications}
 This research has been published in the following conferences or journals: 
 \begin{enumerate}
-  \item  A. Yohannis, “Gamiﬁcation of software modelling,” in the ACM/IEEE 19th International Con-
+ \item A. Yohannis, “Gamiﬁcation of software modelling,” in the ACM/IEEE 19th International Con-
 ference on Model Driven Engineering Languages and Systems (MODELS 2016) Doctoral Sym-
 posium. CEUR, 2016 \cite{Yohannis2016}.
 \end{enumerate}
@@ -579,7 +611,7 @@ posium. CEUR, 2016 \cite{Yohannis2016}.
 \label{chap:Preliminary Survey Data}
 
 \begin{enumerate}
-\item  \textbf{If you think back to the time when you were just about to start the MODE module, what did you think you would find interesting in Model ­Driven Engineering?}
+\item \textbf{If you think back to the time when you were just about to start the MODE module, what did you think you would find interesting in Model ­Driven Engineering?}
 \begin{itemize}
 \item Learning what MDE actually is. Had never heard of it so was intrigued.
 \item I thought I would be provided with a high level approach to designing and managing software/critical systems.
@@ -587,7 +619,7 @@ posium. CEUR, 2016 \cite{Yohannis2016}.
 \item Learning about ways of statically verifying that code conformed to a formal model, and using this to detect and/or automatically correct bugs learning about ways to automatically modify code based on changes made to a model.
 \end{itemize}
 
-\item  \textbf{What did you find important in Model­ Driven Engineering?}
+\item \textbf{What did you find important in Model­ Driven Engineering?}
 \begin{itemize}
 \item Domain modelling ­ especially metamodels and the whole concept of abstract syntax. In terms of practicalities, the ability to use models to generate code is the most useful, along with creating DSLs.
 \item Trying to learn the specific tools to pass the assessment. Not ideal as I wanted more generic
@@ -597,7 +629,7 @@ skillsets in this domain I could apply in my career, instead it was too focused 
 an entire development process Automatic code generationmodifcation based on a model.
 \end{itemize}
 
-\item  \textbf{ Why did you decide to take the Model ­Driven Engineering module?}
+\item \textbf{ Why did you decide to take the Model ­Driven Engineering module?}
 \begin{itemize}
 \item It was compulsory. I had no choice.
 \item Compulsory.
@@ -606,7 +638,7 @@ an entire development process Automatic code generationmodifcation based on a mo
 \end{itemize}
 
 
-\item  \textbf{ What would motivate you more to learn Model Driven Engineering?}
+\item \textbf{ What would motivate you more to learn Model Driven Engineering?}
 \begin{itemize}
 \item Seeing the MDE approach being used to do something that would otherwise be much more tedious to do using more conventional means.
 \item To see the benfit applied in the real world and how organisations have benefited from it. Then how can use these skills and adapt them to my needs.
@@ -614,7 +646,7 @@ an entire development process Automatic code generationmodifcation based on a mo
 \item More use of it in industry More use with languages other than java and different types of models such as ones that aren't based on UML/EMF.
 \end{itemize}
 
-\item  \textbf{ Based on the answers that you’ve provided above (No. 1­4), what were the most basic, core underlying motives or needs that make you commit to learning Model­
+\item \textbf{ Based on the answers that you’ve provided above (No. 1­4), what were the most basic, core underlying motives or needs that make you commit to learning Model­
 Driven Engineering?}
 
 \begin{itemize}
@@ -626,7 +658,7 @@ conforms to a formally­defined model
 \end{itemize}
 
 
-\item  \textbf{ What were the challenges that you found interesting in learning Model­Driven Engineering? Why?}
+\item \textbf{ What were the challenges that you found interesting in learning Model­Driven Engineering? Why?}
 \begin{itemize}
 \item One of the main challenges is in defining the abstract syntax for a DSL along with placing restrictions on its use through a validation language. There's a balance between trying to make the abstract syntax clean and easy to understand and modify vs. preserving the intended semantics.
 \item None really, I found the assignment and practicals a tool based grind as opposed to a useful learning opportunity.
@@ -636,7 +668,7 @@ conforms to a formally­defined model
 
 
 
-\item  \textbf{How did you manage to overcome these challenges?}
+\item \textbf{How did you manage to overcome these challenges?}
 \begin{itemize}
 \item By experimenting and going with what makes the most sense. If it's a structural issue with semantics, it's an abstract syntax issue. If it's something more peculiar, it's a validation issue.
 \item By grinding through them.
@@ -645,7 +677,7 @@ conforms to a formally­defined model
 \end{itemize}
 
 
-\item  \textbf{ What were the hurdles--the non­interesting challenges--that hindered or demotivated you in learning Model­Driven Engineering? Why?}
+\item \textbf{ What were the hurdles--the non­interesting challenges--that hindered or demotivated you in learning Model­Driven Engineering? Why?}
 \begin{itemize}
 \item Learning the Eclipse Modelling Framework, MOF etc. wasn't fun. The most fun part was learning and use Emfatic with EGL/EGX and EOL in general. But actually understanding the meta­metamodel and all the ecore stuff seemed pointless. You don't need to understand what EClass, EEnum, EString etc. are. It's just unnecessary detail that's very specific to
 Eclipse and not really something that you need to know even if you use Epsilon.
@@ -655,7 +687,7 @@ Eclipse and not really something that you need to know even if you use Epsilon.
 other can't and so requires EVL. Although there is a lot of very good documentation available about the languages in epsilon there is far less information on the internet about them than what is usually available for popular programming languages and it qould be helpful if there was more.
 \end{itemize}
 
-\item  \textbf{How did you overcome these hurdles?}
+\item \textbf{How did you overcome these hurdles?}
 \begin{itemize}
 \item By ignoring them; once I realized they served no purpose for developers.
 \item Reading up about the tools and grinding through them.
