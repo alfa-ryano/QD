@@ -98,6 +98,15 @@ M.~Csikszentmihalyi, ``Toward a psychology of optimal experience,'' in
   \emph{Flow and the foundations of positive psychology}.\hskip 1em plus 0.5em
   minus 0.4em\relax Springer, 2014, pp. 209--226.
 
+\bibitem{chen2007flow}
+J.~Chen, ``Flow in games (and everything else),'' \emph{Communications of the
+  ACM}, vol.~50, no.~4, pp. 31--34, 2007.
+
+\bibitem{liao2006flow}
+L.-F. Liao, ``A flow theory perspective on learner motivation and behavior in
+  distance education,'' \emph{Distance Education}, vol.~27, no.~1, pp. 45--62,
+  2006.
+
 \bibitem{vygotsky1978mind}
 L.~S. Vygotsky, \emph{Mind in society: The development of higher psychological
   processes}.\hskip 1em plus 0.5em minus 0.4em\relax Harvard university press,
@@ -108,6 +117,18 @@ D.~Wood, J.~S. Bruner, and G.~Ross, ``The role of tutoring in problem
   solving,'' \emph{Journal of child psychology and psychiatry}, vol.~17, no.~2,
   pp. 89--100, 1976.
 
+\bibitem{kao2015designing}
+G.~Y.-M. Kao, C.-H. Chiang, and C.-T. Sun, ``Designing an educational game with
+  customized scaffolds for learning physics,'' in \emph{Advanced Applied
+  Informatics (IIAI-AAI), 2015 IIAI 4th International Congress on}.\hskip 1em
+  plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 303--306.
+
+\bibitem{tsai2013importance}
+F.-H. Tsai, C.~Kinzer, K.-H. Hung, C.-L.~A. Chen, and I.-Y. Hsu, ``The
+  importance and use of targeted content knowledge with scaffolding aid in
+  educational simulation games,'' \emph{Interactive Learning Environments},
+  vol.~21, no.~2, pp. 116--128, 2013.
+
 \bibitem{krathwohl2002revision}
 D.~R. Krathwohl, ``A revision of bloom's taxonomy: An overview,'' \emph{Theory
   into practice}, vol.~41, no.~4, pp. 212--218, 2002.
@@ -116,14 +137,48 @@ D.~R. Krathwohl, ``A revision of bloom's taxonomy: An overview,'' \emph{Theory
 C.~Munzenmaier and N.~Rubin, ``Bloom’s taxonomy: What’s old is new again,''
   \emph{The Elearning Guild. Santa Rosa}, 2013.
 
+\bibitem{arnab2015mapping}
+S.~Arnab, T.~Lim, M.~B. Carvalho, F.~Bellotti, S.~Freitas, S.~Louchart,
+  N.~Suttie, R.~Berta, and A.~De~Gloria, ``Mapping learning and game mechanics
+  for serious games analysis,'' \emph{British Journal of Educational
+  Technology}, vol.~46, no.~2, pp. 391--411, 2015.
+
+\bibitem{von2013scrumia}
+C.~G. von Wangenheim, R.~Savi, and A.~F. Borgatto, ``Scrumia—an educational
+  game for teaching scrum in computing courses,'' \emph{Journal of Systems and
+  Software}, vol.~86, no.~10, pp. 2675--2687, 2013.
+
 \bibitem{kolb2014experiential}
 D.~A. Kolb, \emph{Experiential learning: Experience as the source of learning
   and development}.\hskip 1em plus 0.5em minus 0.4em\relax FT press, 2014.
+
+\bibitem{bliemel2014game}
+M.~Bliemel and H.~Ali-Hassan, ``Game-based experiential learning in online
+  management information systems classes using intel's it manager 3,''
+  \emph{Journal of Information Systems Education}, vol.~25, no.~2, p. 117,
+  2014.
+
+\bibitem{boctor2013active}
+L.~Boctor, ``Active-learning strategies: the use of a game to reinforce
+  learning in nursing education. a case study,'' \emph{Nurse education in
+  practice}, vol.~13, no.~2, pp. 96--100, 2013.
 
 \bibitem{keller2010motivational}
 J.~M. Keller, \emph{Motivational design for learning and performance: The ARCS
   model approach}.\hskip 1em plus 0.5em minus 0.4em\relax Springer Science \&
   Business Media, 2010.
+
+\bibitem{huang2010sustaining}
+W.-H. Huang, W.-Y. Huang, and J.~Tschopp, ``Sustaining iterative game playing
+  processes in dgbl: The relationship between motivational processing and
+  outcome processing,'' \emph{Computers \& Education}, vol.~55, no.~2, pp.
+  789--797, 2010.
+
+\bibitem{derbali2010players}
+L.~Derbali and C.~Frasson, ``Players’ motivation and eeg waves patterns in a
+  serious game environment,'' in \emph{International Conference on Intelligent
+  Tutoring Systems}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2010, pp.
+  297--299.
 
 \bibitem{hunicke2004mda}
 R.~Hunicke, M.~LeBlanc, and R.~Zubek, ``Mda: A formal approach to game design
@@ -134,12 +189,6 @@ R.~Hunicke, M.~LeBlanc, and R.~Zubek, ``Mda: A formal approach to game design
 K.~Werbach and D.~Hunter, \emph{For the win: How game thinking can
   revolutionize your business}.\hskip 1em plus 0.5em minus 0.4em\relax Wharton
   Digital Press, 2012.
-
-\bibitem{arnab2015mapping}
-S.~Arnab, T.~Lim, M.~B. Carvalho, F.~Bellotti, S.~Freitas, S.~Louchart,
-  N.~Suttie, R.~Berta, and A.~De~Gloria, ``Mapping learning and game mechanics
-  for serious games analysis,'' \emph{British Journal of Educational
-  Technology}, vol.~46, no.~2, pp. 391--411, 2015.
 
 \bibitem{brambilla2012model}
 M.~Brambilla, J.~Cabot, and M.~Wimmer, ``Model-driven software engineering in
