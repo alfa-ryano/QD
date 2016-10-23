@@ -180,15 +180,55 @@ L.~Derbali and C.~Frasson, ``Players’ motivation and eeg waves patterns in a
   Tutoring Systems}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2010, pp.
   297--299.
 
-\bibitem{hunicke2004mda}
-R.~Hunicke, M.~LeBlanc, and R.~Zubek, ``Mda: A formal approach to game design
-  and game research,'' in \emph{Proceedings of the AAAI Workshop on Challenges
-  in Game AI}, vol.~4, 2004, p.~1.
+\bibitem{deterding2015lens}
+S.~Deterding, ``The lens of intrinsic skill atoms: A method for gameful
+  design,'' \emph{Human--Computer Interaction}, vol.~30, no. 3-4, pp. 294--335,
+  2015.
+
+\bibitem{abt1987serious}
+C.~C. Abt, \emph{Serious games}.\hskip 1em plus 0.5em minus 0.4em\relax
+  University Press of America, 1987.
+
+\bibitem{werbach2014re}
+K.~Werbach, ``(re) defining gamification: A process approach,'' in
+  \emph{International Conference on Persuasive Technology}.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 2014, pp. 266--272.
+
+\bibitem{yohannis2014defining}
+A.~R. Yohannis, Y.~D. Prabowo, and A.~Waworuntu, ``Defining gamification: From
+  lexical meaning and process viewpoint towards a gameful reality,'' in
+  \emph{Information Technology Systems and Innovation (ICITSI), 2014
+  International Conference on}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2014, pp. 284--289.
+
+\bibitem{garris2002games}
+R.~Garris, R.~Ahlers, and J.~E. Driskell, ``Games, motivation, and learning: A
+  research and practice model,'' \emph{Simulation \& gaming}, vol.~33, no.~4,
+  pp. 441--467, 2002.
+
+\bibitem{yusoff2009conceptual}
+A.~Yusoff, R.~Crowder, L.~Gilbert, and G.~Wills, ``A conceptual framework for
+  serious games,'' in \emph{2009 Ninth IEEE International Conference on
+  Advanced Learning Technologies}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2009, pp. 21--23.
+
+\bibitem{de2011serious}
+S.~de~Freitas and F.~Liarokapis, ``Serious games: a new paradigm for
+  education?'' in \emph{Serious games and edutainment applications}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Springer, 2011, pp. 9--23.
 
 \bibitem{werbach2012win}
 K.~Werbach and D.~Hunter, \emph{For the win: How game thinking can
   revolutionize your business}.\hskip 1em plus 0.5em minus 0.4em\relax Wharton
   Digital Press, 2012.
+
+\bibitem{kumar2013framework}
+N.~B. Kumar, ``A framework for designing gamification in the enterprise,''
+  \emph{Infosys Labs Briefings}, vol.~11, no.~3, pp. 8--13, 2013.
+
+\bibitem{chou2013octalysis}
+Y.-K. Chou, ``Octalysis: Complete gamification framework,'' \emph{Yu-Kai Chou
+  \& Gamification}, 2013.
 
 \bibitem{brambilla2012model}
 M.~Brambilla, J.~Cabot, and M.~Wimmer, ``Model-driven software engineering in
@@ -226,6 +266,7 @@ S.~Akayama, B.~Demuth, T.~C. Lethbridge, M.~Scholz, P.~Stevens, and D.~R.
 \bibitem{liebel2015ready}
 G.~Liebel, R.~Heldal, J.-P. Stegh{\"o}fer, and M.~R. Chaudron, ``Ready for
   prime time,-yes, industrial-grade modelling tools can be used in education,''
+  \emph{Research Reports in Software Engineering and Management No. 2015:01},
   2015.
 
 \bibitem{lethbridge2014teaching}
@@ -233,6 +274,11 @@ T.~C. Lethbridge, ``Teaching modeling using umple: Principles for the
   development of an effective tool,'' in \emph{2014 IEEE 27th Conference on
   Software Engineering Education and Training (CSEE\&T)}.\hskip 1em plus 0.5em
   minus 0.4em\relax IEEE, 2014, pp. 23--28.
+
+\bibitem{white2010teaching}
+P.~White and M.~C. Mitchelmore, ``Teaching for abstraction: A model,''
+  \emph{Mathematical Thinking and Learning}, vol.~12, no.~3, pp. 205--226,
+  2010.
 
 \bibitem{Stikkolorum2014}
 D.~R. Stikkolorum, M.~R. Chaudron, and O.~de~Bruin, ``The art of software
@@ -261,11 +307,6 @@ K.~Peffers, T.~Tuunanen, M.~A. Rothenberger, and S.~Chatterjee, ``A design
   science research methodology for information systems research,''
   \emph{Journal of management information systems}, vol.~24, no.~3, pp. 45--77,
   2007.
-
-\bibitem{deterding2015lens}
-S.~Deterding, ``The lens of intrinsic skill atoms: A method for gameful
-  design,'' \emph{Human--Computer Interaction}, vol.~30, no. 3-4, pp. 294--335,
-  2015.
 
 \bibitem{hair2016primer}
 J.~F. Hair~Jr, G.~T.~M. Hult, C.~Ringle, and M.~Sarstedt, \emph{A primer on

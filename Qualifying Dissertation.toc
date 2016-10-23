@@ -10,37 +10,35 @@
 \contentsline {subsection}{\numberline {2.1.5}Keller's ARCS Motivational Learning Model}{10}{subsection.2.1.5}
 \contentsline {section}{\numberline {2.2}Ludology}{11}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Serious Games and Gamification}{11}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Hunicke's MDA Model}{11}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Werbach's Gamification Framework}{11}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Learning Mechanics-Game Mechanics Model}{12}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Software Modelling}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}What is Software Modelling?}{13}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Software Modelling Tools}{13}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Software Modelling Teaching}{14}{subsection.2.3.3}
-\contentsline {subsubsection}{Contents}{14}{section*.2}
-\contentsline {subsubsection}{Teaching and Learning Practices}{14}{section*.3}
-\contentsline {subsubsection}{Tool Design}{15}{section*.4}
-\contentsline {subsection}{\numberline {2.3.4}Abstraction in Software Modelling Learning}{16}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Gamified Software Modelling}{17}{subsection.2.3.5}
-\contentsline {subsubsection}{Puzzle Game to Teach Software Design Principles}{17}{section*.5}
-\contentsline {subsubsection}{Explorable Board-game to Understand and Validate Enterprise Architecture}{17}{section*.6}
-\contentsline {subsubsection}{Familiar Tangible Model to Model Information Security}{18}{section*.7}
-\contentsline {subsubsection}{Arranging UML Activity Diagram to Control the Behavior of a Game}{18}{section*.8}
-\contentsline {section}{\numberline {2.4}Research Methodology}{19}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Design Science Research Methodology}{19}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Gameful Design Method}{21}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Evaluation}{22}{subsection.2.4.3}
-\contentsline {chapter}{\numberline {3}Proposal}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Research Questions}{23}{section.3.1}
-\contentsline {section}{\numberline {3.2}Aim and Objectives}{24}{section.3.2}
-\contentsline {section}{\numberline {3.3}Research Outputs}{24}{section.3.3}
-\contentsline {chapter}{\numberline {4}Preliminary Results}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Preliminary Survey}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Design Requirements}{28}{section.4.2}
-\contentsline {section}{\numberline {4.3}Elaborating Design and Learning Models}{29}{section.4.3}
-\contentsline {section}{\numberline {4.4}Game Design}{33}{section.4.4}
-\contentsline {section}{\numberline {4.5}Modelling Game Design Framework}{34}{section.4.5}
-\contentsline {chapter}{Bibliography}{35}{figure.4.4}
-\contentsline {chapter}{Appendix \numberline {A}Research Plan}{40}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Publications}{41}{Appendix.a.B}
-\contentsline {chapter}{Appendix \numberline {C}Preliminary Survey Data}{42}{Appendix.a.C}
+\contentsline {subsection}{\numberline {2.2.2}Gameful Design Method}{12}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Software Modelling}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}What is Software Modelling?}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Software Modelling Tools}{15}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Software Modelling Teaching}{15}{subsection.2.3.3}
+\contentsline {subsubsection}{Contents}{15}{section*.2}
+\contentsline {subsubsection}{Teaching and Learning Practices}{16}{section*.3}
+\contentsline {subsubsection}{Tool Design}{17}{section*.4}
+\contentsline {subsection}{\numberline {2.3.4}Abstraction in Software Modelling Learning}{18}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Gamified Software Modelling}{18}{subsection.2.3.5}
+\contentsline {subsubsection}{Puzzle Game to Teach Software Design Principles}{19}{section*.5}
+\contentsline {subsubsection}{Explorable Board-game to Understand and Validate Enterprise Architecture}{19}{section*.6}
+\contentsline {subsubsection}{Familiar Tangible Model to Model Information Security}{19}{section*.7}
+\contentsline {subsubsection}{Arranging UML Activity Diagram to Control the Behavior of a Game}{20}{section*.8}
+\contentsline {section}{\numberline {2.4}Research Methodology}{20}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Design Science Research Methodology}{21}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Evaluation}{22}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}Proposal}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Research Questions}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}Aim and Objectives}{25}{section.3.2}
+\contentsline {section}{\numberline {3.3}Research Outputs}{25}{section.3.3}
+\contentsline {chapter}{\numberline {4}Preliminary Results}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Preliminary Survey}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Design Requirements}{29}{section.4.2}
+\contentsline {section}{\numberline {4.3}Elaborating Design and Learning Models}{30}{section.4.3}
+\contentsline {section}{\numberline {4.4}Game Design}{34}{section.4.4}
+\contentsline {section}{\numberline {4.5}Modelling Game Design Framework}{35}{section.4.5}
+\contentsline {chapter}{Bibliography}{36}{figure.4.4}
+\contentsline {chapter}{Appendix \numberline {A}Research Plan}{41}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Publications}{42}{Appendix.a.B}
+\contentsline {chapter}{Appendix \numberline {C}Preliminary Survey Data}{43}{Appendix.a.C}
+\contentsline {chapter}{Appendix \numberline {D}Storyboards}{47}{Appendix.a.D}
