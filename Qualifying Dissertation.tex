@@ -10,6 +10,7 @@
 	\hypersetup{colorlinks=true,allcolors=blue}
 \usepackage{hypcap}
 \usepackage{csquotes}
+\usepackage{subfig}
 
 \setlength{\parindent}{1cm}
 \setlength{\parskip}{0.1cm}
@@ -58,7 +59,7 @@ Software modelling has a fundamental role in software engineering. However, it i
 
 \chapter{Introduction}
 
-Software modelling is commonly perceived as a difficult subject since it requires a mastery of abstraction \cite{Borstler2012}. However, this subject has a fundamental and crucial role in software engineering education and practice. Failure to master this topic will affect the student’s abstraction capability which is essential for analysing and designing real-world software. Successful application of software modelling requires skills in abstract modelling \cite{whittle2013industrial}. The modelling itself is the process to think abstractly about systems \cite{bezivin2009teaching}. Thus, teaching modelling also means teaching abstraction \cite{engels2005teaching}. Therefore, it is crucial to make students understand the value of abstraction \cite{bezivin2009teaching}. Weak software modelling skills will likely cause software engineering students to face further with their degrees, as most of the software engineering related subjects involve of inherent abstraction problems \cite{Kramer2007}. In the context of computer science and software engineering education, Kramer and Hazzan argued abstraction be the central theme or key skill for computing \cite{Kramer2007, hazzan2008reflections}.
+Software modelling is commonly perceived as a difficult subject since it requires a mastery of abstraction \cite{Borstler2012}. However, this subject has a fundamental and crucial role in software engineering education and practice. Failure to master this topic will affect the student’s abstraction capability which is essential for analysing and designing real-world software. Successful application of software modelling requires skills in abstract modelling \cite{whittle2013industrial}. The modelling itself is the process of thinking abstractly about systems \cite{bezivin2009teaching}. Thus, teaching modelling also means teaching abstraction \cite{engels2005teaching}. Therefore, it is crucial to make students understand the value of abstraction \cite{bezivin2009teaching}. Weak software modelling skills will likely cause software engineering students to face further challenges with their degrees, as most of the software engineering related subjects involve of inherent abstraction problems \cite{Kramer2007}. In the context of computer science and software engineering education, Kramer and Hazzan argued that abstraction is the central theme or key skill for computing \cite{Kramer2007, hazzan2008reflections}.
 
 \begin{displayquote}
 "I believe that abstraction is a key skill for computing. It is essential during requirements engineering to elicit the critical aspects of the environment \dots At design time \dots Even at the implementation stage \dots " --- Kramer \cite{Kramer2007}.
@@ -68,9 +69,9 @@ Software modelling is commonly perceived as a difficult subject since it require
 " \dots software is an intangible object, and hence, requires highly developed cognitive skills for coping with different levels of abstraction." --- Hazzan \cite{hazzan2008reflections}.
 \end{displayquote}
 
-The problems of learning appropriate abstraction skills for software modelling is similar to problems in mathematics, where most of the concepts can only be accessed through symbolical representations \cite{Duval2006}. Abstraction also requires students to grasp skills in information hiding, generalisation, approximation or reformulation and separating relevant from irrelevant aspects \cite{Saitta2013}. To overcome these challenges, we need to put more effort into software modelling learning design, developing a more concrete and motivating presentation which can engage students and facilitate deep learning.
+The problem of learning appropriate abstraction skills for software modelling is similar to problems in mathematics, where most of the concepts can only be accessed through symbolical representations \cite{Duval2006}. Abstraction also requires students to grasp skills in information hiding, generalisation, approximation or reformulation and separating relevant from irrelevant aspects \cite{Saitta2013}. To overcome these challenges, we need to put more effort into software modelling learning design, developing a more concrete and motivating presentation which can engage students and facilitate deep learning.
 
-In the recent years, the use of games or game elements for purposes other than leisure has drawn significant attention. Gamification \cite{deterding2011game} and Serious Games \cite{Michael2005} (further we use 'Gamified Approach' term to comprise both concepts) have been proposed as solutions to motivational problems that emerge when users are required to engage in activities that they perceived as boring, irrelevant, or difficult. Figure \ref{gamification-trend} shows us the growth of "Gamification" on Google Trends\footnote{\url{https://www.google.com/trends/explore?date=all&q=\%22gamification\%22}} since February 2010. 
+In the recent years, the use of games and game elements for purposes other than leisure has drawn significant attention. Gamification \cite{deterding2011game} and Serious Games \cite{Michael2005} (further we use 'Gamified Approach' term to comprise both concepts) have been proposed as solutions to motivational problems that emerge when users are required to engage in activities that they perceive as boring, irrelevant, or difficult. Figure \ref{gamification-trend} shows us the growth of "Gamification" on Google Trends\footnote{\url{https://www.google.com/trends/explore?date=all&q=\%22gamification\%22}} since February 2010. 
 
 \begin{figure}[ht]
 \centering
@@ -81,13 +82,13 @@ In the recent years, the use of games or game elements for purposes other than l
 
 Real-world examples that show the success of the Gamified Approach is Duolingo\footnote{\url{https://www.duolingo.com/
 }} and Re-mission\footnote{\url{http://www.re-mission.net/
-}}. Duolingo is a gamification of language learning. It embeds game elements, such as points, levels, and lives, to make language learning more fun. Re-mission is a third person shooting game dedicated to young cancer patients and designed to teach and learn how to deal with cancer. The patients are invited to involve in an entertaining gameplay that will affect their specific behavioural and psychological outcomes producing effective cancer therapy.
+}}. Duolingo is a gamified system of language learning. It embeds game elements, such as points, levels, and lives, to make language learning more fun. Re-mission is a third-person shooting game dedicated to young cancer patients and designed to teach and learn how to deal with cancer. The patients are invited to involve in an entertaining gameplay that will affect their specific behavioural and psychological outcomes producing effective cancer therapy.
  
-Through a systematic review, Connolly et al. studied the impacts of computer games and serious games regarding engagement and learning in diverse fields. They reported the majority of the studies presented empirical evidence about the positive impacts of computer games and serious games \cite{connolly2012systematic}. Using the same type of method, Hamari et al. found that according to the most of the reviewed papers, gamification does generate benefits and positive effects \cite{hamari2014does}. Specifically in the field of software engineering, Pedreira el al. also performed a systematic review to investigate the application of gamification in software engineering. Most of the studies focus on software development, project management, requirements, and other support areas, but none of them focuses on software modelling. They also found fewer studies reported empirical evidence of their work. They argued that existing studies in the field be quite new, thus more research effort is needed in investigating the impact of gamiﬁcation in software engineering \cite{Pedreira2015}. 
+Through a systematic review, Connolly et al. studied the impact of computer games and serious games on engagement and learning in diverse fields. They reported the majority of the studies presented empirical evidence about the positive impact of computer games and serious games \cite{connolly2012systematic}. Using the same type of method, Hamari et al. found that according to the majority of the reviewed papers, gamification does generate benefits and positive effects \cite{hamari2014does}. Specifically in the field of software engineering, Pedreira el al. also performed a systematic review on the application of gamification in software engineering. Most existing studies focus on software development, project management, requirements, and other support areas, but none of them focuses on software modelling. They also found fewer studies reporting empirical evidence of their work. They argued that existing studies in the field be quite new, thus more research effort is needed on investigating the impact of gamiﬁcation in software engineering \cite{Pedreira2015}. 
 
-The report of the positive impact of Gamified Approach in various fields encourages us to apply the Gamified Approach in software modelling learning, a subject that seems overlooked for applying gamification. This situation broadens our opportunity to produce novel research contribution regarding the application of gamification in the field of software modelling. Grounded on this background, we then propose our research to investigate and develop software modelling learning games. 
+The report of the positive impact of Gamified Approach in various fields encourages us to apply the Gamified Approach in software modelling learning, a subject that has received little attention so far. This situation broadens our opportunity to produce novel research contribution regarding the application of gamification in the field of software modelling.  
 
-Instead of developing the software modelling games manually, we plan to follow a model-based approach. we will develop a design framework for the games, that will systematically and semi-automatically drives gamification design to produce software modelling learning games. Essentially, our study lies in the intersection between software modelling, learning, and games as depicted in Figure \ref{smlg}. Therefore, we considered to include great pedagogical aspect into our study since we are going to address software modelling mainly in it's learning context. 
+Instead of developing the software modelling games manually, we plan to follow a model-based approach. We will develop a design framework for the games, that will systematically and semi-automatically drive gamification design to produce software modelling learning games. Essentially, our study lies in the intersection between software modelling, learning, and games as depicted in Figure \ref{smlg}. Therefore, pedagogical aspect cannot be neglected. We will apply several learning models from pedagogy to drive the design of our learning game. 
 
 \begin{figure}[ht]
 \centering
@@ -96,10 +97,10 @@ Instead of developing the software modelling games manually, we plan to follow a
 \label{smlg}
 \end{figure}
 
-This qualifying dissertation is organised as follows. First, we introduce our research in Section 1. We then explain the literature review in Section 2 and propose the research proposal in Section 3. Finally, in Section 4, we end this qualifying dissertation with a discussion on our preliminary results. 
+The remainder of this report is organised as follows. We provide a detailed literature review in Section 2 and propose the research proposal in Section 3. Finally, in Section 4, we end this qualifying dissertation with a discussion on our preliminary results. 
 
 \chapter{Field Survey and Review}
-
+\label{Field Survey and Review}
 Since the research of the gamification of software modelling learning is multidisciplinary study, it is best to organise the literature review categorised by the contributing fields, including the subtopics resulting from the interaction between them. So far, we have identified three major contributing fields, software modelling, ludology, and pedagogy as well (Figure \ref{smlg2}). They will be discussed in the following subsections, and a brief review of the research methodology ends this chapter.
 
 \begin{figure}[ht]
@@ -187,18 +188,18 @@ In this section \ref{Pedagogy}, we have presented learning models that we plan t
 Likewise Pedagogy, we view Ludology has a significant contribution to our work since one of the outputs of this research is a playable gameful artefact. Therefore, we based our work much on the concepts borrowed from Ludology, such as serious games and gamification, and employ gameful design method \cite{deterding2015lens} to frame our design. They will be discussed briefly in the following sections.   
 
 \subsection{Serious Games and Gamification}
-Through reading this report, there are two terms related to games that appear often, serious games and gamification. The meaning of the two terms is different but they have a blur boundary that one is difficult to distinct them and could view them as the same notions. Abs defines serious games that the "games have an explicit and carefully thought-out educational purpose and are not intended to be played primarily for amusement" \cite{abt1987serious}, whereas Deterding et al. defines gamification as "the use of game design elements in non-game contexts" \cite{deterding2011game}. While both has similarity in the context both are used for purposes other than leisures, both also has a difference. Serious games is full-fledged games---they have all characteristics to be classified as games. In contrast, gamification focuses on the use of game elements, not a single complete game. The boundary is at a question "How can we distinct between an entity that is a game and an entity that only use game elements?" There is an area where you cannot separate them clearly since the distinction depends on human judgement which could be different.
+Through reading this report, there are two terms related to games that often appear, serious games and gamification. The meaning of the two words is different, but they have a blurred boundary that one is hard to distinct them and could view them as the same notions. Abs define serious games that the "games have an explicit and carefully thought-out educational purpose and are not intended to be played primarily for amusement" \cite{abt1987serious}, whereas Deterding et al. defines gamification as "the use of game design elements in non-game contexts" \cite{deterding2011game}. While both has similarity in the context both are used for purposes other than leisures, both also has a difference. Serious games are full-fledged games---they have all characteristics to be classified as games. In contrast, gamification focuses on the use of game elements, not a single complete game. The boundary is a question "How can we distinct between an entity that is a game and an entity that only use game elements?" There is an area where you cannot separate them clearly since the distinction depends on the human judgement which could be different.
 
-Other confusion is on the word 'gamification'. The word 'gamification' could also be defined as a process \cite{werbach2014re}, like other words with '-ation'. The process is adding game elements to something that is originally not a game so it become more like a game, but there is a moment---a threshold---when we keep adding game elements, it has all the characteristics to be defined as a game---it satisfy the definition of a game \cite{yohannis2014defining}. Thefore to avoid this confusion. In other words, gamification process could also transform an entity into a game but the entity could still own it's original characteristics. 
+Other confusion is on the word 'gamification'. The word 'gamification' could also be defined as a process \cite{werbach2014re}, like other words with '-ation'. The process is adding game elements to something that is originally not a game, so it becomes more like a game, but there is a moment---a threshold---when we keep adding game elements, it has all the characteristics to be defined as a game---it satisfies the definition of a game \cite{yohannis2014defining}. Therefore to avoid this confusion. In other words, gamification process could also transform an entity into a game, but the entity could still own its original characteristics. 
 
-Therefore, to avoid the confusion throughout this report, we clarify that when we use the word 'game' it could refer to two meanings. First, it refers to the common popular definition of a game, and second, it refers to the game produced by a gamification process. Likewise, the word 'gamification' could refer to two definitions. First, it is a process---integrating game elements into an entity---and second, it is the product of the process---the entity after integrating game elements. We also use the term 'gamified approach' as a term comprises approaches that utilise serious games or gamification as the significant components in their solutions. 
+Therefore, to avoid the confusion throughout this report, we clarify that when we use the word 'game', it could refer to two meanings. First, it relates to the common popular definition of a game, and second, it refers to the game produced by a gamification process. Likewise, the word 'gamification' could refer to two definitions. First, it is a process---integrating game elements into an entity---and second, it is the product of the process---the entity after integrating game elements. We also use the term 'gamified approach' as a term comprises approaches that utilise serious games or gamification as the significant components in their solutions. 
 
 \subsection{Gameful Design Method}
-There are several existing game and gamification design-related frameworks that could be utilised to organise the implementation of game elements into a learning process. Some of them are specific in the domain of game-based learning which count much the pedagogical aspect and specific to serious games, which are full-fledged games \cite{garris2002games}, \cite{yusoff2009conceptual}, \cite{de2011serious}. Some of them are very general procedural steps \cite{werbach2012win}, \cite{kumar2013framework}. Others act as an inventory of problem-solution mappings where one could choose one or more game mechanics that are appropriate to his problem \cite{arnab2015mapping}, \cite{chou2013octalysis}. 
+There are several existing game and gamification design-related frameworks that could be utilised to organise the implementation of game elements into a learning process. Some of them are specific in the domain of game-based learning which counts much the pedagogical aspect and specific to serious games, which are full-fledged games \cite{garris2002games}, \cite{yusoff2009conceptual}, \cite{de2011serious}. Some of them are very general procedural steps \cite{werbach2012win}, \cite{kumar2013framework}. Others act as an inventory of problem-solution mappings where one could choose one or more game mechanics that are appropriate to his problem \cite{arnab2015mapping}, \cite{chou2013octalysis}. 
 
-However, All of them are very high level conceptually and less in provoking genuine gameful design. Genuine means the design should arises from target users through a deep reflective and innovative process about a problem, it's core activity that wants the be gamified, and it's gameful solution. Consequently, the gameful design should not be limited to the collection of mechanics in an inventory, but should be  stimulating enough to produce new forms of mechanics that fit with the stakeholder-specific aspects. The 'genuine' also imply that the framework should be generic, not limited to certain domains and could be applied across domains, since we are going to implement gamification in the domain of software modelling.
+However, All of them are very high level conceptually and less in provoking genuine gameful design. Genuine means the design should arise from target users through a deeply reflective and innovative process about a problem; it is core activity that wants the be gamified, and it is gameful solution. Consequently, the gameful design should not be limited to the collection of mechanics in inventory, but should be stimulating enough to produce new forms of mechanics that fit with the stakeholder-specific aspects. The 'genuine' also imply that the framework should be generic, not limited to certain domains and could be applied across domains, since we are going to implement gamification in the domain of software modelling.
 
-Depart from those thoughts, we have identified Deterding's Gameful Design framework \cite{deterding2015lens} as a framework that could facilitate our consideration and thus we decided to select it as a framework that will guide our gamification process.  Moreover, we choose the approach because (1) It bases it's solution on target users' context (users, context, activities). (2) It focus on the core activity that is wanted to be gamified. (3) It concerns about the challenges and motivation that are inherent to the core activity. (4) It provokes ideation of genuine gameful design, not just limited to the collection of existing solutions (the solutions are used as a starting point to stimulate ideation). (5) It supports iterative prototyping. (6) It is generic, applicable across domains.               
+Depart from those thoughts, we have identified Deterding's Gameful Design framework \cite{deterding2015lens} as a framework that could facilitate our consideration and thus we decided to select it as a framework that will guide our gamification process.  Moreover, we choose the approach because (1) It bases its solution on target users' context (users, context, activities). (2) It focuses on the core activity that is wanted to be gamified. (3) It concerns about the challenges and motivation that are inherent to the core activity. (4) It provokes ideation of genuine gameful design, not just limited to the collection of existing solutions (the solutions are used as a starting point to stimulate ideation). (5) It supports iterative prototyping. (6) It is generic, applicable across domains.               
 
 The Gameful Design framework consists of design lenses, skill atoms, and prescriptive guidelines. Design lenses is a combination of an easy-to-remember name, a short statement of a design principle, and a set of focusing questions that help the designer to view activities, motivation, and challenges from the perspective of the lenses. Design lenses are derived from game elements, so in short, viewing using design lenses means learning to view in the perspective of game elements. Deterding's Design Lenses comes with four categories of lenses: challenge, goal and motivation, action and object, and feedback. Each category comes with lenses which could be utilised to view activity, challenges, and motivation from game element perspective to generate innovative ideas of gamification. 
 
@@ -219,7 +220,7 @@ A skill atom describes a feedback loop between user and system that is organised
 \label{fig:skill-atoms}
 \end{figure}
 
-The prescriptive guidelines that comprises five phases: strategy, research, synthesis, ideation, and ideation. In strategy phase, stakeholder defines outcome metrics, target users, context, and activities as well as constraints and requirements. In the next step, the research phase, user activities behaviour chains, user needs, motivations, and hurdles as well as how game design fits with them are identified and defined. After that, in the synthesis phase, triplets or a combination of activity, challenges, and motivation is defined, including defining skill atoms. Furthermore, in the ideation phase, to generate ideas for the gamification design, brainstorming with innovation stems are conducted. Design lenses are used to help view the triplets from the perspective of game elements. After some ideas are generated, those ideas are prioritised. The prioritised ideas are then translated into storyboards to make them more visible. After that, the ideas are evaluated and refined based on results of the evaluation. In the last phase, a prototype is developed iteratively, including the activities of playtesting, analysing, building, and generating new ideas. 
+The prescriptive guidelines that comprise five phases: strategy, research, synthesis, ideation, and ideation. In strategy phase, stakeholder defines outcome metrics, target users, context, and activities as well as constraints and requirements. In the next step, the research phase, user activities behaviour chains, user needs, motivations, and hurdles as well as how game design fits with them are identified and defined. After that, in the synthesis phase, triplets or a combination of activity, challenges, and motivation is defined, including defining skill atoms. Furthermore, in the ideation phase, to generate ideas for the gamification design, brainstorming with innovation stems are conducted. Design lenses are used to help view the triplets from the perspective of game elements. After some ideas are generated, those ideas are prioritised. The prioritised ideas are then translated into storyboards to make them more visible. After that, the ideas are evaluated and refined based on results of the evaluation. In the last phase, a prototype is developed iteratively, including the activities of playtesting, analysing, building, and generating new ideas. 
 
 \begin{figure}[ht]
 \centering
@@ -228,38 +229,46 @@ The prescriptive guidelines that comprises five phases: strategy, research, synt
 \label{fig:gameful-steps}
 \end{figure}
 
-We have followed the prescriptive guidelines of the Gameful Design framework to generate preliminary design of our game and developed a storyboard to create a visible version of our design (section \ref{chap:Storyboards}). We also have performed our preliminary survey to identify learners' needs, motivations, and challenges (section \ref{Preliminary Survey}). The result of our preliminary design and it's early prototype could be found in section \ref{Game Design}. 
+We have followed the prescriptive guidelines of the Gameful Design framework to generate the preliminary design of our game and developed a storyboard to create a visible version of our design (section \ref{chap:Storyboards}). We also have performed our preliminary survey to identify learners' needs, motivations, and challenges (section \ref{Preliminary Survey}). The result of our initial design and it is early prototype could be found in section \ref{Game Design}. 
 
 \section{Software Modelling}
-
-In this section, we d
+While pedagogy has a contribution on the methods how we should deliver learning contents and ludology contributes on improving the motivation in a learning process, software modelling are the contents delivered to learners. In this section, we describe and discuss what software modelling is, tools to perform software modelling, existing principles and practices in software modelling teaching, abstraction in software modelling, related studies of gamified software modelling.    
 
 \subsection{What is Software Modelling?}
-Software modelling is a process that focus on creating models of software and domains it applied.     
+Software modelling is a process of creating models of software, including the domains where the software is applied. The process has a crucial role in Model Driven Engineering (MDE) methodology since MDE harnesses greatly the strength of modelling to improve engineering processes \cite{brambilla2012model}.  
 
-concretisation
-\begin{figure}[ht]
+\begin{figure}[!b]
 \centering
-\includegraphics[width=8cm]{abstraction}
+\includegraphics[width=13cm]{abstraction}
 \caption{Abstraction in Model-driven Engineering \cite{brambilla2012model}.}
-\label{fig:abstraction}
+\label{abstraction}
 \end{figure}
 
+The process of modelling itself starts from a real world objects--a concrete experience--and then move up to abstraction \cite{white2010teaching, engels2005teaching}, which also known as a process of abstraction. Abstraction in MDE has four layers. The first layer is real world object, the second layer is model, the third one is metamodel, and the fourth one is metametamodel \cite{brambilla2012model}. Models are abstraction of real-world objects. Models could also be abstracted to produce metamodels, models that describe models. Likewise, the metamodels could be abstracted again to produce metametamodels, models that define metamodels. In practice, metemetamodels can be defined based on themselves, so it is rational to stay with 4 levels of abstraction, rather then create infinite levels of modelling. This process of abstraction is depicted in Figure \ref{abstraction}.
 
-\begin{figure}[ht]
+\begin{figure}[!b]
 \centering
-\includegraphics[width=8cm]{concretisation}
+\includegraphics[width=13cm]{concretisation}
 \caption{Instantiation in Model-driven Engineering.}
-\label{fig:concretisation}
+\label{concretisation}
 \end{figure}
+ 
+To create real working systems, models has to be transformed into real word objects. In the context of software engineering, models are transformed into working code through model transformation and code generation. We call this whole process as concretisation, a process that has a reverse direction to abstraction. Figure \ref{concretisation} shows us a process of conretisation of a metamodel of a flowchart model applied to waking-up process. The metamodel acts as the definition of the model; it has rules that define the model should and should not be. So, every model created should conform to its metamodel. The metamodel is more general than it is models since it could be applied to different model domain. In Figure \ref{concretisation}, the metamodel is applied to model the process of waking up. Through model transformation and instance generation, the model is consumed to generate real world objects, in this case, an event of waking up and turning off an alarm in the reality.   
 
+The whole process of abstraction and concretisation in MDE---from real world objects to metametamodels and vice versa---is the learning content that should be addressed in our gamification. We plan to address modelling in the 1\textsuperscript{st} year and metamodelling in the 2\textsuperscript{nd} year of our research. Model transformation will be addressed in the 3\textsuperscript{rd} year. Appendix \ref{Research Plan} shows the detailed research plan.   
+ 
 \subsection{Software Modelling Tools}
+The use of tools for software modelling is encouraged since with them we could easily manipulate models, create models that at least confirm to their metamodels, and some support model transformation \cite{brambilla2012model}. There are many tools available for software modelling, from a drawing tool like Dia\footnote{\url{http://dia-installer.de/}} to a specific technical modelling tool like Papyrus\footnote{\url{https://eclipse.org/papyrus/}} and from a simple modelling tool for learning \cite{dranidis2015learning} to an enterprise-scale modelling one\footnote{\url{https://www.visual-paradigm.com/features/}}. 
+
+For the purpose of learning, some suggested developing a simple software modelling learning tool since for beginners modelling using professional tools is overwhelming \cite{dranidis2015learning, Akayama2013}. In line with the statement, we plan to build our modelling tool, a tool that is simple, familiar, and accessible. Simple means the tool focuses on core activities so learners can easily learn software modelling. Focusing on core activities also satisfies the requirement of gameful design \cite{deterding2011game}. Familiar means the tool mimics common visual modelling environments that usually appear in the form of a window that has a palette and a drawing area. Accessible means the tool is a web-based application so learners can access the tool as long as they have an internet connection.      
+
+We also plan to build a design framework of software modelling learning games to ease the design of gamification and automate the generation of the learning games. The design framework will be built upon Epsilon family, including the utilisation of other technologies such as Javascript, HTML, and J2EE to create web-based learning games. Epsilon is a family of languages and tools for model management \cite{kolovos2010epsilon}. The model management itself consists of several processes. They are code generation, model-to-model transformation as well as model validation, comparison, migration and refactoring. Moreover, Epsilon also supports Eclipse Modeling Framework (EMF) and other model types, such Meta Data Repository (MDR), CSV, Bibtex, etc. (Figure \ref{epsilon}). A visual modelling environment for the design framework will be generated using EuGENia \cite{kolovos2015eugenia}, a subset of Epsilon family intended to produce visual modelling editors automatically. 
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=8cm]{epsilon}
-\caption{Epsilon is a family of languages and tools for model management\cite{kolovos2015eugenia}.}
-\label{fig:epsilon}
+\includegraphics[width=\textwidth]{epsilon}
+\caption{Epsilon is a family of languages and tools for model management\cite{kolovos2010epsilon}.}
+\label{epsilon}
 \end{figure}
 
 \subsection{Software Modelling Teaching}
@@ -335,20 +344,17 @@ In the context of activity diagram learning, Richardsen \cite{Richardsen2014} de
 
 Based on the previous four related works, we concluded that different concepts of software modelling were addressed. However, no use of game elements that addresses abstraction regarding modelling, meta-modelling, and model transformation in particular, which mean there is an opportunity for research on that area. We also found that different specific concepts were addressed with different approaches and game elements which also challenge us to develop a more generic design in addressing software modelling learning problem. The good news is all of the works reported that the use of game and game elements has a positive effect in motivating and engaging users in varying degree. Furthermore, every study has their challenges which are a good thing to be aware of when carrying our research. The drawbacks of other works are most of them did not consider seriously about a pedagogical aspect of their solution and, in general, their validation was weak regarding sample size and lack discussion of internal validity.
 
-
-
-
 \section{Research Methodology}
-A design framework for software modelling learning game will be derived deductively mainly from existing related theories and research works that come from the fields of education, games, and software modelling. The resulting framework will be tested in several case studies for validation, and the test results will be inputted to revise the framework. Since the outputs of the research will be designed artefacts, Design Science Research Methodology \cite{peffers2007design} is selected as the research methods as it provides a comprehensive conceptual framework and activity guidelines for understanding, developing, executing, and evaluating design artefacts. We also implement Deterding's Gameful Design Steps \cite{deterding2015lens} to guide the design of the gameful aspect of the product.
+A design framework for software modelling learning game will be derived deductively mainly from existing related theories and research works that come from the fields of education, games, and software modelling. The resulting framework will be tested in several case studies for validation, and the test results will be inputted to revise the framework. Since the outputs of the research will be designed artefacts, Design Science Research Methodology \cite{peffers2007design} is selected as the research methods as it provides a comprehensive conceptual framework and activity guidelines for understanding, developing, executing, and evaluating design artefacts. In the end of this section, we also discuss  briefly our evaluation plan to evaluate our research findings.  
 
 \subsection{Design Science Research Methodology}
-We will employ Design Science Research Methodology \cite{peffers2007design} as the methodology to carry out the research. DSRM is selected since it provides a comprehensive conceptual framework that consists of activity guidelines for understanding, developing, executing, and evaluating design artefacts. Oher reason is that it positions itself at the top level of abstraction without going into much detail of how to perform each activity, we can freely choose other more concrete research methods to carry out the activities. For examples, we can conduct literature reviews, surveys, or expert interviews to determine research problems, motivations, solutions, and objectives as well as controlled experiments to measure and evaluate the effectiveness of the artefacts. 
+We will employ Design Science Research Methodology \cite{peffers2007design} as the methodology to carry out the research. DSRM is selected since it provides a comprehensive conceptual framework that consists of activity guidelines for understanding, developing, executing, and evaluating design artefacts (Figure \ref{dsrm}). Oher reason is that it positions itself at the top level of abstraction without going into much detail of how to perform each activity, we can freely choose other more concrete research methods to carry out the activities. For examples, we can conduct literature reviews, surveys, or expert interviews to determine research problems, motivations, solutions, and objectives as well as controlled experiments to measure and evaluate the effectiveness of the artefacts. 
 
 \begin{figure}[ht]
 \centering
-\frame{\includegraphics[width=\textwidth]{dsrm}}
+\includegraphics[width=\textwidth]{dsrm}
 \caption{Design Science Research Methodology. Adapted from Peffer et al. \cite{peffers2007design}.}
-\label{fig:003}
+\label{dsrm}
 \end{figure}
 
 \textbf{Identify Problem and Motivation}. This research will use literature review, suggestions from experts, and surveys to identify research problems and motivations a well as to determine the solution and its objectives.
@@ -365,10 +371,6 @@ As we could view the challenges as problems, this research then chooses the prob
 
 \textbf{Communication}. Significant findings will be published in an academic conferences or journals for dissemination and evaluation by the related research communities.
 
-
- 
-
-
 \subsection{Evaluation}
 We wish to evaluate (1) the effectiveness of the modelling games discussed above and (2) the productivity and maintainability benefits of the modelling game design framework. For the effectiveness evaluation, controlled experiments will be used. The participants, software modelling students, will be divided into two groups, a control group and an experimental group. The control group will learn software modelling using traditional methods while the experimental group will learn with support from the games. Then, their performance of the two groups will be measured by their ability to solve a set of related modelling problems. 
 
@@ -379,7 +381,7 @@ Additionally, surveying with questionnaires or interviews might be conducted to 
 
 \chapter{Proposal}
 \label{Proposal}
-Grounded on the literature review in Chapter 2, we base our research in these premises. First, learning software modelling is not a trivial task as it requires abstraction skills and demands high cognitive loads to deal with abstract objects and operations. Second, regardless gamification design is still an ongoing challenge \cite{Deterding2013}, it is an opportunity for research that up today there is still no work in the gamification of learning that addresses the core concepts of software modelling—modelling, metamodelling, and model transformation. Third, there is still no gamification design framework that guides the integration of game specific domain into software modelling learning. Fourth, opportunity to 
+Grounded on the literature review in Chapter \ref{Field Survey and Review}, in this this section, we present our research questions as well as our research aim and objectives to answer the questions. We also present the possible research outputs that will be produced during our research.  
 
 \section{Research Questions}
 The main research question proposed by this research is "How can gamification improve software modelling learning?" To support answering the main research question, following sub research questions need to be investigated:
@@ -499,15 +501,17 @@ Category & Code & Requirements from Literature Review \\
 & RL11 & Teach broadly, throughout, not deeply \\
 & RL12 & Teach with different modelling languages \\ 
 & RL13 & Make it fun \\ 
+& RL14 & Teach from ground, real-world objects, up to abstraction \\ 
+
 \hline
 \multirow{1}{2cm}{Tool Design}
-& RL14 & Support and documentation \\
-& RL15 & Build knowledge incrementally \\
-& RL16 & Flexibility to explore learning \\
-& RL17 & Positive reinforcement \\
-& RL18 & Convince the value of the topic being learned \\ 
-& RL19 & High usability \\ 
-& RL20 & Inexpensive tool \\ 
+& RL15 & Support and documentation \\
+& RL16 & Build knowledge incrementally \\
+& RL17 & Flexibility to explore learning \\
+& RL18 & Positive reinforcement \\
+& RL19 & Convince the value of the topic being learned \\ 
+& RL20 & High usability \\ 
+& RL21 & Inexpensive tool \\ 
 \hline
 \end{tabular}
 \end{center}
@@ -607,6 +611,7 @@ Instead of developing the software modelling games manually, we plan to follow a
 \begin{appendices}
 
 \chapter{Research Plan}
+\label{Research Plan}
 The planned research schedule can be found in Table 1. In three years, this work plans to have five times iteration of Design-Develop-Demonstration-Evaluation, with two of them will be carried out in Indonesia and the rest of them in York.
 
 \begin {table}[ht]
@@ -712,14 +717,245 @@ Eclipse and not something that you need to know even if you use Epsilon.
 \item Eclipse sometimes stops working but does this usually does not prevent the completion of tasks as most problems can be fixed by deleting the workspace directory and starting again, it simply wastes many time Things that could not be expressed in EMF were instead expressed using EVL. The required information about Epsilon could always be found by
 asking classmates and asking lecturers, but this would not be possible if using these languages outside the university
 \end{itemize}
-
-\chapter{Storyboards}
-\label{chap:Storyboards}
-
 \end{enumerate}
+
+\chapter{Application of Deterding's Gameful Design Steps}
+\label{Application of Deterding's Gameful Design Steps}
+
+
+\section{Strategy}
+\subsection{Define Target Outcome and Metrics}
+\subsubsection{Outcome}
+\begin{itemize}
+\item Students that use the gamified learning perform better than traditional ones in software modelling.
+\end{itemize}
+
+\subsubsection{Metrics}
+\begin{itemize}
+\item Scores that they get from solving given software modelling problems.
+\item Subjective opinions that learning through the gamified systems is better than the traditional ones. 
+\item Model metrics of the models that they produce.
+\end{itemize}
+
+\subsection{Define Target Users, Context, Activities}
+\subsubsection{Users}
+Computer Science Undergraduate Students with some knowledge of object-orientation, ideally from both programming and design, and a good understanding of software engineering
+\subsubsection{Context}
+One term of software modelling course (Time) and in the context of university software modelling course (Place)
+\subsubsection{Activities}
+Modelling, metamodelling, and model management
+
+\subsection{Identify Constraints and Requirements}
+\subsubsection{Laws and regulations}
+\begin{itemize}
+\item Privacy regulation.
+\end{itemize}
+\subsubsection{Scope (time, budget, personnel)}
+\begin{itemize}
+\item Time. One term of software modelling.
+\item People. Student of software modelling-related courses.
+\item Budget. Available research budget.
+\end{itemize}
+\subsubsection{Technological requirements}
+\begin{itemize}
+\item Notebooks, computer desktops.
+\item Internet connection.
+\end{itemize}
+\subsubsection{Others}
+\begin{itemize}
+\item Align with the existing learning models and software modelling teaching best practices.
+\end{itemize}
+
+\section{Research}
+\subsection{Translate Users Activities into Behaviour Chains}
+\subsubsection{Modelling}
+\begin{itemize}
+\item Real-world problems are given using textual description (or videos, interviews, images, etc.) 
+\item Perform abstraction/identify relevant concepts (objects, values, attributes, and operations) according to the requirements 
+\item Translate them into classes and relationships
+\item Construct the model in the form of diagrams that represent the classes and relationships in different views (different diagrams)
+\item Evaluate the models
+\end{itemize}
+
+\subsubsection{Meta-Modelling}
+\begin{itemize}
+\item Models are given using textual description (or videos, interviews, images, figures, etc.) 
+\item Perform abstraction/identify relevant concepts (classes, relationships, attributes) of the models
+\item Translate them into metamodel classes
+\item Construct metamodel diagrams that represent the metamodel
+\item Evaluate the metamodel
+\end{itemize}
+
+\subsubsection{Model Management}
+\begin{itemize}
+\item Problems are given using textual description (or videos, interviews, images, figures, etc.) 
+\item Identify goals and constraints
+\item Determine the model management operations:
+Validation
+\item Transformation (model-to-model, text-to-model, model-to-text)
+Etc.
+\item Refine the operations into more detail steps
+\item Test
+\item Execute
+\end{itemize}
+
+\subsection{Identify User Needs, Motivations, Hurdles}
+\subsubsection{User needs}
+\begin{itemize}
+\item Master the software modelling.
+\end{itemize}
+\subsubsection{Motivations}
+\begin{itemize}
+\item Has competency in software modelling (Ability to solve problems and ability to produce artefacts or concrete products).
+\item Fun, challenging.
+\item Understanding the importance and advantages of software modelling.
+\end{itemize}
+\subsubsection{Hurdles}
+\begin{itemize}
+\item No fun, the presentation of software modelling is not interesting.
+\item Abstraction is difficult, choosing the most relevant elements according to the requirements.
+\item Heavy cognitive loads dealing with abstract concepts.
+\end{itemize}
+
+\subsection{Determine Gameful Design Fit}
+\begin{itemize}
+\item Does the activity connect to an actual user need? \textbf{Yes}
+\item Is lacking motivation a central issue or opportunity (and not, e.g., poor usability)? \textbf{Both}
+\item Does the target activity involve an inherent challenge with a learnable skill? \textbf{Yes}
+\item Is affording experiences of competence the most effective and efﬁcient way of improving motivation (and not, e.g., defusing fears)? \textbf{Yes}
+\end{itemize}
+
+\section{Synthesis}
+\subsection{Formulate Activity, Challenge, Motivation  Triplets for Opportune Activities or Behaviours}
+
+\subsubsection{What motivations energize and direct the activity?}
+Software modelling mastery: solving problems and build abstract/concrete artefacts
+\subsubsection{What challenges are inherent in the activity?}
+\begin{itemize}
+\item Abstraction: determine the most relevant objects and relationships between them
+\item Diagramming: translate the resulting model into diagram
+\item Algorithmic operation: much like programming but for model management
+\end{itemize}
+\subsubsection{What challenges can be removed through automation or improving usability?} 
+\begin{itemize}
+\item Simplify the real-world scenario to identify relevant objects
+\item Simplify the diagramming processes
+\item Simplify the algorithmic operations
+\end{itemize}
+\subsubsection{What challenges remain that the user can learn to get better at?}
+Abstraction, diagramming, algorithmic operation
+\subsubsection{What are the activities, challenges, and motives?}
+\begin{itemize}
+\item Activity: Construct model 
+\item Challenge: abstraction, diagramming, algorithmic operation
+\item Motive: fear to make mistakes (-), solving problems (+), create artefacts (+)
+\end{itemize}
+
+\section{Ideation}
+\subsection{Brainstorming Ideas using Innovation Stems}
+\subsubsection{Challenge lenses}
+Onboarding, scaffolded challenge, varied challenge 
+\subsubsection{Goal and motivation lenses}
+Interim goals, viral calls to action, next base action, intrinsic rewards, secrets, templates, traces of others
+\subsubsection{Action and object lenses}
+Bite sized actions, interesting choices, limited choices, micro-flow, small pieces loosely joined, expressive objects, underdetermination, sensual objects
+\subsubsection{Feedback lenses}
+Immediate, juicy, actionable, appeal to motives, glanceable, varied, surprising, graspable progress.
+
+\subsubsection{Example}
+\begin{itemize}
+\item Scaffolded challenge lens and Mastery motivation
+How might we spark a sense of mastery in abstraction,  diagramming, and model operation?
+\item How might we use scaffolded challenge to make the abstraction, diagramming, and model operation more enjoyable?
+\item How might we spark a sense of mastery with scaffolded challenge?
+\item How might we alleviate fear of making mistakes with scaffolded challenges?
+\end{itemize}
+
+\subsection{Prioritise Ideas}
+Only one idea created so far. Learners are given a scaffolded series of problems to which they can exercise modelling, metamodelling, and model management. Motivating feedbacks to achieve mastery are integrated as well.
+
+\section{Iterative Prototyping}
+Prototyping is still on going work.
+
+
+\chapter{Storyboard: Object Diagram}
+\label{Storyboards}
+\begin{itemize}
+\item Objects
+	\begin{itemize}
+	\item Create single object (Level 01)
+	\item Create two objects (Level 02)
+	\item Create multiple objects (Level 03)
+	\end{itemize}
+\item Links (Relationships)
+	\begin{itemize}
+	\item Create single link (Level 04)
+	\item Create multiple links (Level 05)
+	\end{itemize}
+\item Slots (Attributes)
+	\begin{itemize}
+	\item Determine a slot and its value (Level 06)
+	\item Determine slots and their values (Level 07)
+	\end{itemize}
+\item Operations/Methods
+	\begin{itemize}
+	\item Determine operation (Level 08)
+	\item Determine multiple (Level 09) operations
+	\end{itemize}
+\item Class of Objects
+	\begin{itemize}
+	\item Determine the class of homogeneous objects (Level 10)
+	\item Determine different classes of heterogeneous objects (Level 11)
+	\end{itemize}
+\item Case Studies
+	\begin{itemize}
+	\item Reconstruct the model from the beginning (Level 12)
+	\item Apply the skills on different/similar problem (Level 13)
+	\end{itemize}
+\end{itemize}
+
+\begin{figure}[ht]
+    \centering
+    \subfloat[Level 01]{{ \frame{\includegraphics[width=7.16cm]{storyboard01}} }}
+    \hspace{0cm}
+    \subfloat[Level 02]{{ \frame{\includegraphics[width=7.16cm]{storyboard02}} }}
+    \\
+    \subfloat[Level 03]{{ \frame{\includegraphics[width=7.16cm]{storyboard03}} }}
+    \hspace{0cm}
+    \subfloat[Level 04]{{ \frame{\includegraphics[width=7.16cm]{storyboard04}} }}
+    \\
+    \subfloat[Level 05]{{ \frame{\includegraphics[width=7.16cm]{storyboard05}} }}
+    \hspace{0cm}
+    \subfloat[Level 06]{{ \frame{\includegraphics[width=7.16cm]{storyboard06}} }}
+    
+    
+    
+    \caption{Storyboard of Gamification of Object Diagram (part 1).}
+    \label{storyboard-1}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \subfloat[Level 07]{{ \frame{\includegraphics[width=7.16cm]{storyboard07}} }}
+    \hspace{0cm}
+    \subfloat[Level 08]{{ \frame{\includegraphics[width=7.16cm]{storyboard08}} }}
+    \\
+    \subfloat[Level 09]{{ \frame{\includegraphics[width=7.16cm]{storyboard09}} }}
+    \hspace{0cm}
+    \subfloat[Level 10]{{ \frame{\includegraphics[width=7.16cm]{storyboard10}} }}
+    \\
+    \subfloat[Level 11]{{ \frame{\includegraphics[width=7.16cm]{storyboard11}} }}
+    \hspace{0cm}
+    \subfloat[Level 12]{{ \frame{\includegraphics[width=7.16cm]{storyboard12}} }}
+\caption{Storyboard of Gamification of Object Diagram (part 2).}
+    \label{storyboard-2}
+\end{figure}
+
 
 \end{appendices}
 
 \end{document}
+
 
 

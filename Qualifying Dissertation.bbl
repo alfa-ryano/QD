@@ -235,6 +235,26 @@ M.~Brambilla, J.~Cabot, and M.~Wimmer, ``Model-driven software engineering in
   practice,'' \emph{Synthesis Lectures on Software Engineering}, vol.~1, no.~1,
   pp. 1--182, 2012.
 
+\bibitem{white2010teaching}
+P.~White and M.~C. Mitchelmore, ``Teaching for abstraction: A model,''
+  \emph{Mathematical Thinking and Learning}, vol.~12, no.~3, pp. 205--226,
+  2010.
+
+\bibitem{dranidis2015learning}
+D.~Dranidis, I.~Stamatopoulou, and M.~Ntika, ``Learning and practicing systems
+  analysis and design with studentuml,'' in \emph{Proceedings of the 7th Balkan
+  Conference on Informatics Conference}.\hskip 1em plus 0.5em minus 0.4em\relax
+  ACM, 2015, p.~41.
+
+\bibitem{Akayama2013}
+S.~Akayama, B.~Demuth, T.~C. Lethbridge, M.~Scholz, P.~Stevens, and D.~R.
+  Stikkolorum, ``Tool use in software modelling education.'' in \emph{EduSymp@
+  MoDELS}, 2013.
+
+\bibitem{kolovos2010epsilon}
+D.~Kolovos, L.~Rose, R.~Paige, and A.~Garc{\i}a-Dom{\i}nguez, ``The epsilon
+  book,'' \emph{Structure}, vol. 178, pp. 1--10, 2010.
+
 \bibitem{kolovos2015eugenia}
 D.~S. Kolovos, A.~Garc{\'\i}a-Dom{\'\i}nguez, L.~M. Rose, and R.~F. Paige,
   ``Eugenia: towards disciplined and automated development of gmf-based
@@ -258,11 +278,6 @@ R.~F. Paige, F.~A. Polack, D.~S. Kolovos, L.~M. Rose, N.~Matragkas, and J.~R.
   ACM/IEEE 17th International Conference on Model Driven Engineering Languages
   and Systems (MoDELS’14), Valencia, Spain}, 2014.
 
-\bibitem{Akayama2013}
-S.~Akayama, B.~Demuth, T.~C. Lethbridge, M.~Scholz, P.~Stevens, and D.~R.
-  Stikkolorum, ``Tool use in software modelling education.'' in \emph{EduSymp@
-  MoDELS}, 2013.
-
 \bibitem{liebel2015ready}
 G.~Liebel, R.~Heldal, J.-P. Stegh{\"o}fer, and M.~R. Chaudron, ``Ready for
   prime time,-yes, industrial-grade modelling tools can be used in education,''
@@ -275,10 +290,12 @@ T.~C. Lethbridge, ``Teaching modeling using umple: Principles for the
   Software Engineering Education and Training (CSEE\&T)}.\hskip 1em plus 0.5em
   minus 0.4em\relax IEEE, 2014, pp. 23--28.
 
-\bibitem{white2010teaching}
-P.~White and M.~C. Mitchelmore, ``Teaching for abstraction: A model,''
-  \emph{Mathematical Thinking and Learning}, vol.~12, no.~3, pp. 205--226,
-  2010.
+\bibitem{bobkowska2014software}
+A.~E. Bobkowska, ``Software modeling from the perspective of intuitive
+  information processing,'' in \emph{Proceedings of the 2014 Mulitmedia,
+  Interaction, Design and Innovation International Conference on Multimedia,
+  Interaction, Design and Innovation}.\hskip 1em plus 0.5em minus 0.4em\relax
+  ACM, 2014, pp. 1--8.
 
 \bibitem{Stikkolorum2014}
 D.~R. Stikkolorum, M.~R. Chaudron, and O.~de~Bruin, ``The art of software
@@ -312,12 +329,6 @@ K.~Peffers, T.~Tuunanen, M.~A. Rothenberger, and S.~Chatterjee, ``A design
 J.~F. Hair~Jr, G.~T.~M. Hult, C.~Ringle, and M.~Sarstedt, \emph{A primer on
   partial least squares structural equation modeling (PLS-SEM)}.\hskip 1em plus
   0.5em minus 0.4em\relax Sage Publications, 2016.
-
-\bibitem{Deterding2013}
-S.~Deterding, S.~L. Bj{\"o}rk, L.~E. Nacke, D.~Dixon, and E.~Lawley,
-  ``Designing gamification: creating gameful and playful experiences,'' in
-  \emph{CHI'13 Extended Abstracts on Human Factors in Computing Systems}.\hskip
-  1em plus 0.5em minus 0.4em\relax ACM, 2013, pp. 3263--3266.
 
 \bibitem{murphy2007prior}
 E.~J. Murphy, ``Prior learning assessment: A review of bloom's taxonomy and
