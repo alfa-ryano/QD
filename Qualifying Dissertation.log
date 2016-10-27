@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.30)  25 OCT 2016 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.30)  27 OCT 2016 01:28
 entering extended mode
 **"./Qualifying Dissertation.tex"
 ("Qualifying Dissertation.tex"
@@ -473,28 +473,27 @@ File: images/bloom.png Graphic file (type png)
 Package pdftex.def Info: images/bloom.png used on input line 146.
 (pdftex.def)             Requested size: 170.71652pt x 127.98627pt.
 
-[8 <./images/scaffolding.png> <./images/bloom.png>]
-<images/kolb.png, id=402, 416.757pt x 404.712pt>
+<images/kolb.png, id=393, 416.757pt x 404.712pt>
 File: images/kolb.png Graphic file (type png)
  <use images/kolb.png>
-Package pdftex.def Info: images/kolb.png used on input line 160.
+Package pdftex.def Info: images/kolb.png used on input line 158.
 (pdftex.def)             Requested size: 227.62204pt x 221.04227pt.
- [9 <./images/kolb.png>] <images/keller.png, id=417, 645.612pt x 247.52475pt>
+ [8 <./images/scaffolding.png> <./images/bloom.png>] [9 <./images/kolb.png>]
+<images/keller.png, id=418, 645.612pt x 247.52475pt>
 File: images/keller.png Graphic file (type png)
-
-<use images/keller.png>
-Package pdftex.def Info: images/keller.png used on input line 178.
+ <use images/keller.png>
+Package pdftex.def Info: images/keller.png used on input line 174.
 (pdftex.def)             Requested size: 284.52756pt x 109.08873pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 [10 <./images/keller.png>] [11]
-<images/lenses.png, id=454, 774.4935pt x 274.626pt>
+<images/lenses.png, id=453, 774.4935pt x 274.626pt>
 File: images/lenses.png Graphic file (type png)
  <use images/lenses.png>
-Package pdftex.def Info: images/lenses.png used on input line 208.
+Package pdftex.def Info: images/lenses.png used on input line 204.
 (pdftex.def)             Requested size: 341.43306pt x 121.07047pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -509,45 +508,45 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 
-[12] <images/skill-atoms.png, id=467, 396.88275pt x 163.812pt>
+<images/skill-atoms.png, id=456, 396.88275pt x 163.812pt>
 File: images/skill-atoms.png Graphic file (type png)
 
 <use images/skill-atoms.png>
-Package pdftex.def Info: images/skill-atoms.png used on input line 218.
+Package pdftex.def Info: images/skill-atoms.png used on input line 214.
 (pdftex.def)             Requested size: 341.43306pt x 140.92555pt.
-
-<images/gameful-steps.png, id=470, 744.98325pt x 386.6445pt>
+ [12]
+<images/gameful-steps.png, id=469, 744.98325pt x 386.6445pt>
 File: images/gameful-steps.png Graphic file (type png)
 
 <use images/gameful-steps.png>
-Package pdftex.def Info: images/gameful-steps.png used on input line 227.
+Package pdftex.def Info: images/gameful-steps.png used on input line 223.
 (pdftex.def)             Requested size: 341.43306pt x 177.20375pt.
 
 
 LaTeX Warning: Reference `chap:Storyboards' on page 13 undefined on input line 
-232.
+228.
 
 [13 <./images/lenses.png> <./images/skill-atoms.png>]
-<images/abstraction.png, id=482, 745.5855pt x 420.3705pt>
+<images/abstraction.png, id=481, 745.5855pt x 420.3705pt>
 File: images/abstraction.png Graphic file (type png)
 
 <use images/abstraction.png>
-Package pdftex.def Info: images/abstraction.png used on input line 242.
+Package pdftex.def Info: images/abstraction.png used on input line 238.
 (pdftex.def)             Requested size: 369.88582pt x 208.54907pt.
 
-<images/concretisation.png, id=489, 770.88pt x 420.3705pt>
+<images/concretisation.png, id=488, 770.88pt x 420.3705pt>
 File: images/concretisation.png Graphic file (type png)
 
 <use images/concretisation.png>
-Package pdftex.def Info: images/concretisation.png used on input line 251.
+Package pdftex.def Info: images/concretisation.png used on input line 247.
 (pdftex.def)             Requested size: 369.88582pt x 201.69858pt.
  [14 <./images/gameful-steps.png>] [15 <./images/abstraction.png> <./images/con
 cretisation.png>]
-<images/epsilon.png, id=520, 719.68875pt x 398.6895pt>
+<images/epsilon.png, id=519, 719.68875pt x 398.6895pt>
 File: images/epsilon.png Graphic file (type png)
 
 <use images/epsilon.png>
-Package pdftex.def Info: images/epsilon.png used on input line 269.
+Package pdftex.def Info: images/epsilon.png used on input line 265.
 (pdftex.def)             Requested size: 426.79135pt x 236.44147pt.
  [16] [17 <./images/epsilon.png>]
 Missing character: There is no √ in font cmr12!
@@ -572,23 +571,22 @@ Missing character: There is no î in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no î in font cmr12!
- [20]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no î in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+ [20]
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
-[21] <images/dsrm.png, id=664, 744.98325pt x 328.8285pt>
+[21] <images/dsrm.png, id=663, 744.98325pt x 328.8285pt>
 File: images/dsrm.png Graphic file (type png)
  <use images/dsrm.png>
-Package pdftex.def Info: images/dsrm.png used on input line 355.
+Package pdftex.def Info: images/dsrm.png used on input line 351.
 (pdftex.def)             Requested size: 426.79135pt x 188.38249pt.
 
 [22]
-Overfull \hbox (0.27217pt too wide) in paragraph at lines 368--369
+Overfull \hbox (0.27217pt too wide) in paragraph at lines 364--365
 []\OT1/cmr/bx/n/12 Design and De-vel-op-ment\OT1/cmr/m/n/12 . This re-search wi
 ll em-ploy game-ful de-sign method
  []
@@ -600,92 +598,92 @@ Chapter 3.
 ] [27]
 Chapter 4.
 
-Package hyperref Warning: No autoref name for `Appendix' on input line 429.
+Package hyperref Warning: No autoref name for `Appendix' on input line 425.
 
 [28
 
 ] [29]
-Overfull \hbox (3.86331pt too wide) in paragraph at lines 462--462
+Overfull \hbox (3.86331pt too wide) in paragraph at lines 458--458
 []|\OT1/cmr/m/n/12 Motivations|  
  []
 
 
-Overfull \vbox (14.5pt too high) detected at line 466
+Overfull \vbox (14.5pt too high) detected at line 462
  []
 
 
-Overfull \vbox (29.0pt too high) detected at line 470
+Overfull \vbox (29.0pt too high) detected at line 466
  []
 
 [30]
-Underfull \hbox (badness 1377) in paragraph at lines 494--495
+Underfull \hbox (badness 1377) in paragraph at lines 490--491
 []|\OT1/cmr/m/n/12 Teach Mod-elling, meta-mod-elling, model val-i-da-tion,
  []
 
 
-Overfull \vbox (29.0pt too high) detected at line 499
+Overfull \vbox (29.0pt too high) detected at line 495
  []
 
 
-Overfull \vbox (14.5pt too high) detected at line 511
+Overfull \vbox (14.5pt too high) detected at line 507
  []
 
-[31] <images/learning-models.png, id=760, 548.0475pt x 330.63525pt>
+[31] <images/learning-models.png, id=759, 548.0475pt x 330.63525pt>
 File: images/learning-models.png Graphic file (type png)
 
 <use images/learning-models.png>
-Package pdftex.def Info: images/learning-models.png used on input line 532.
+Package pdftex.def Info: images/learning-models.png used on input line 528.
 (pdftex.def)             Requested size: 426.79135pt x 257.48581pt.
 
-<images/learning-models2.png, id=761, 489.62926pt x 369.7815pt>
+<images/learning-models2.png, id=760, 489.62926pt x 369.7815pt>
 File: images/learning-models2.png Graphic file (type png)
 
 <use images/learning-models2.png>
-Package pdftex.def Info: images/learning-models2.png used on input line 539.
+Package pdftex.def Info: images/learning-models2.png used on input line 535.
 (pdftex.def)             Requested size: 426.79135pt x 322.32231pt.
  [32 <./images/learning-models.png>] [33 <./images/learning-models2.png>]
-Overfull \vbox (14.5pt too high) detected at line 564
+Overfull \vbox (14.5pt too high) detected at line 560
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 565--565
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 561--561
 []|\OT1/cmr/m/n/12 RM01| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 566--566
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 562--562
 []|\OT1/cmr/m/n/12 RM02| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 567--567
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 563--563
 []|\OT1/cmr/m/n/12 RM03| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 568--568
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 564--564
 []|\OT1/cmr/m/n/12 RM04| 
  []
 
 
-Overfull \hbox (2.71083pt too wide) in paragraph at lines 569--569
+Overfull \hbox (2.71083pt too wide) in paragraph at lines 565--565
 []|\OT1/cmr/m/n/12 RM05| 
  []
 
-[34] <images/game-annotated.png, id=797, 1028.34187pt x 578.16pt>
+[34] <images/game-annotated.png, id=796, 1028.34187pt x 578.16pt>
 File: images/game-annotated.png Graphic file (type png)
 
 <use images/game-annotated.png>
-Package pdftex.def Info: images/game-annotated.png used on input line 582.
+Package pdftex.def Info: images/game-annotated.png used on input line 578.
 (pdftex.def)             Requested size: 426.79135pt x 239.95839pt.
  [35 <./images/game-annotated.png>]
-<images/editor.png, id=807, 639.13782pt x 355.3275pt>
+<images/editor.png, id=808, 639.13782pt x 355.3275pt>
 File: images/editor.png Graphic file (type png)
  <use images/editor.png>
-Package pdftex.def Info: images/editor.png used on input line 602.
+Package pdftex.def Info: images/editor.png used on input line 598.
 (pdftex.def)             Requested size: 426.79135pt x 237.27658pt.
 
-("Qualifying Dissertation.bbl" [36 <./images/editor.png>] [37
+("Qualifying Dissertation.bbl" [36] [37 <./images/editor.png>] [38
 
 ]
 Missing character: There is no ‚ in font cmr12!
@@ -697,24 +695,24 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no î in font cmr12!
- [38]
+ [39]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [39]
+
+[40]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ô in font cmti12!
-
-[40]) [41]
+ [41]) [42]
 Appendix A.
-<images/timetable.png, id=835, 981.06525pt x 508.299pt>
+<images/timetable.png, id=840, 981.06525pt x 508.299pt>
 File: images/timetable.png Graphic file (type png)
 
 <use images/timetable.png>
-Package pdftex.def Info: images/timetable.png used on input line 626.
+Package pdftex.def Info: images/timetable.png used on input line 622.
 (pdftex.def)             Requested size: 426.79135pt x 221.12378pt.
- [42
+ [43
 
  <./images/timetable.png>]
 Appendix B.
@@ -727,19 +725,19 @@ Missing character: There is no Å in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[43
+[44
 
 ]
 Appendix C.
 Missing character: There is no ¬ in font cmbx12!
 Missing character: There is no ≠ in font cmbx12!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 643.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 639.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 643.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 639.
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
 Missing character: There is no ¬ in font cmbx12!
@@ -756,7 +754,7 @@ Missing character: There is no ¬ in font cmbx12!
 Missing character: There is no ≠ in font cmbx12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
- [44
+ [45
 
 ]
 Missing character: There is no ¬ in font cmr12!
@@ -778,7 +776,7 @@ Missing character: There is no ¬ in font cmbx12!
 Missing character: There is no ≠ in font cmbx12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
- [45]
+ [46]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ≠ in font cmr12!
 Missing character: There is no ¬ in font cmbx12!
@@ -794,130 +792,130 @@ Missing character: There is no ≠ in font cmr12!
 Missing character: There is no Õ in font cmr12!
 Missing character: There is no æ in font cmr12!
 
-[46] [47]
+[47] [48]
 Appendix D.
 
-Overfull \hbox (9.71245pt too wide) in paragraph at lines 746--747
+Overfull \hbox (9.71245pt too wide) in paragraph at lines 742--743
 \OT1/cmr/m/n/12 Computer Sci-ence Un-der-grad-u-ate Stu-dents with some knowl-e
 dge of object-orientation,
  []
 
-[48
+[49
 
-] [49]
-Overfull \hbox (10.79161pt too wide) in paragraph at lines 787--788
+] [50]
+Overfull \hbox (10.79161pt too wide) in paragraph at lines 783--784
 []\OT1/cmr/m/n/12 Perform ab-strac-tion/identify rel-e-vant con-cepts (classes,
  re-la-tion-ships, at-tributes)
  []
 
-[50]
+[51]
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Å in font cmr12!
- [51]
-Overfull \hbox (1.52226pt too wide) in paragraph at lines 865--866
+ [52]
+Overfull \hbox (1.52226pt too wide) in paragraph at lines 861--862
 \OT1/cmr/m/n/12 Bite sized ac-tions, in-ter-est-ing choices, lim-ited choices, 
 micro-flow, small pieces loosely
  []
 
-[52] [53]
+[53] [54]
 Appendix E.
-<images/storyboard01.png, id=926, 567.92175pt x 319.1925pt>
+<images/storyboard01.png, id=931, 567.92175pt x 319.1925pt>
 File: images/storyboard01.png Graphic file (type png)
 
 <use images/storyboard01.png>
-Package pdftex.def Info: images/storyboard01.png used on input line 923.
+Package pdftex.def Info: images/storyboard01.png used on input line 919.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard02.png, id=927, 567.92175pt x 319.1925pt>
+<images/storyboard02.png, id=932, 567.92175pt x 319.1925pt>
 File: images/storyboard02.png Graphic file (type png)
 
 <use images/storyboard02.png>
-Package pdftex.def Info: images/storyboard02.png used on input line 925.
+Package pdftex.def Info: images/storyboard02.png used on input line 921.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard03.png, id=928, 567.92175pt x 319.1925pt>
+<images/storyboard03.png, id=933, 567.92175pt x 319.1925pt>
 File: images/storyboard03.png Graphic file (type png)
 
 <use images/storyboard03.png>
-Package pdftex.def Info: images/storyboard03.png used on input line 927.
+Package pdftex.def Info: images/storyboard03.png used on input line 923.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard04.png, id=929, 567.92175pt x 319.1925pt>
+<images/storyboard04.png, id=934, 567.92175pt x 319.1925pt>
 File: images/storyboard04.png Graphic file (type png)
 
 <use images/storyboard04.png>
-Package pdftex.def Info: images/storyboard04.png used on input line 929.
+Package pdftex.def Info: images/storyboard04.png used on input line 925.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard05.png, id=930, 567.92175pt x 319.1925pt>
+<images/storyboard05.png, id=935, 567.92175pt x 319.1925pt>
 File: images/storyboard05.png Graphic file (type png)
 
 <use images/storyboard05.png>
-Package pdftex.def Info: images/storyboard05.png used on input line 931.
+Package pdftex.def Info: images/storyboard05.png used on input line 927.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard06.png, id=931, 567.92175pt x 319.1925pt>
+<images/storyboard06.png, id=936, 567.92175pt x 319.1925pt>
 File: images/storyboard06.png Graphic file (type png)
 
 <use images/storyboard06.png>
-Package pdftex.def Info: images/storyboard06.png used on input line 933.
+Package pdftex.def Info: images/storyboard06.png used on input line 929.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard07.png, id=932, 567.92175pt x 319.1925pt>
+<images/storyboard07.png, id=937, 567.92175pt x 319.1925pt>
 File: images/storyboard07.png Graphic file (type png)
 
 <use images/storyboard07.png>
-Package pdftex.def Info: images/storyboard07.png used on input line 944.
+Package pdftex.def Info: images/storyboard07.png used on input line 940.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard08.png, id=933, 567.92175pt x 319.1925pt>
+<images/storyboard08.png, id=938, 567.92175pt x 319.1925pt>
 File: images/storyboard08.png Graphic file (type png)
 
 <use images/storyboard08.png>
-Package pdftex.def Info: images/storyboard08.png used on input line 946.
+Package pdftex.def Info: images/storyboard08.png used on input line 942.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard09.png, id=934, 567.92175pt x 319.1925pt>
+<images/storyboard09.png, id=939, 567.92175pt x 319.1925pt>
 File: images/storyboard09.png Graphic file (type png)
 
 <use images/storyboard09.png>
-Package pdftex.def Info: images/storyboard09.png used on input line 948.
+Package pdftex.def Info: images/storyboard09.png used on input line 944.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard10.png, id=935, 567.92175pt x 319.1925pt>
+<images/storyboard10.png, id=940, 567.92175pt x 319.1925pt>
 File: images/storyboard10.png Graphic file (type png)
 
 <use images/storyboard10.png>
-Package pdftex.def Info: images/storyboard10.png used on input line 950.
+Package pdftex.def Info: images/storyboard10.png used on input line 946.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard11.png, id=936, 567.92175pt x 319.1925pt>
+<images/storyboard11.png, id=941, 567.92175pt x 319.1925pt>
 File: images/storyboard11.png Graphic file (type png)
 
 <use images/storyboard11.png>
-Package pdftex.def Info: images/storyboard11.png used on input line 952.
+Package pdftex.def Info: images/storyboard11.png used on input line 948.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
 
-<images/storyboard12.png, id=937, 567.92175pt x 319.1925pt>
+<images/storyboard12.png, id=942, 567.92175pt x 319.1925pt>
 File: images/storyboard12.png Graphic file (type png)
 
 <use images/storyboard12.png>
-Package pdftex.def Info: images/storyboard12.png used on input line 954.
+Package pdftex.def Info: images/storyboard12.png used on input line 950.
 (pdftex.def)             Requested size: 203.72183pt x 114.50008pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 962.
- [54
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 958.
+ [55
 
-] [55 <./images/storyboard01.png> <./images/storyboard02.png> <./images/storybo
+] [56 <./images/storyboard01.png> <./images/storyboard02.png> <./images/storybo
 ard03.png> <./images/storyboard04.png> <./images/storyboard05.png> <./images/st
-oryboard06.png>] [56 <./images/storyboard07.png> <./images/storyboard08.png> <.
+oryboard06.png>] [57 <./images/storyboard07.png> <./images/storyboard08.png> <.
 /images/storyboard09.png> <./images/storyboard10.png> <./images/storyboard11.pn
 g> <./images/storyboard12.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 962.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 958.
 
 ("Qualifying Dissertation.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 962.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 962.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 958.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 958.
 Package rerunfilecheck Info: File `"Qualifying Dissertation".out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 1BB2CEF7A26AB1ACDD1A63AAC3439D9B;3992.
@@ -925,11 +923,11 @@ ed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 962.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 958.
  ) 
 Here is how much of TeX's memory you used:
- 8402 strings out of 493334
- 129926 string characters out of 3136675
+ 8403 strings out of 493334
+ 129933 string characters out of 3136675
  237149 words of memory out of 3000000
  11524 multiletter control sequences out of 15000+200000
  9015 words of font info for 32 fonts, out of 3000000 for 9000
@@ -943,9 +941,9 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Qualifying Dissertation.pdf" (58 pages, 2268010 bytes).
+Output written on "Qualifying Dissertation.pdf" (59 pages, 2268639 bytes).
 PDF statistics:
- 1058 PDF objects out of 1200 (max. 8388607)
- 304 named destinations out of 1000 (max. 500000)
+ 1063 PDF objects out of 1200 (max. 8388607)
+ 305 named destinations out of 1000 (max. 500000)
  585 words of extra memory for PDF output out of 10000 (max. 10000000)
 
