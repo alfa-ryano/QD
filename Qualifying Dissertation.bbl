@@ -217,6 +217,10 @@ S.~de~Freitas and F.~Liarokapis, ``Serious games: a new paradigm for
   education?'' in \emph{Serious games and edutainment applications}.\hskip 1em
   plus 0.5em minus 0.4em\relax Springer, 2011, pp. 9--23.
 
+\bibitem{chou2013octalysis}
+Y.-K. Chou, ``Octalysis: Complete gamification framework,'' \emph{Yu-Kai Chou
+  \& Gamification}, 2013.
+
 \bibitem{werbach2012win}
 K.~Werbach and D.~Hunter, \emph{For the win: How game thinking can
   revolutionize your business}.\hskip 1em plus 0.5em minus 0.4em\relax Wharton
@@ -225,10 +229,6 @@ K.~Werbach and D.~Hunter, \emph{For the win: How game thinking can
 \bibitem{kumar2013framework}
 N.~B. Kumar, ``A framework for designing gamification in the enterprise,''
   \emph{Infosys Labs Briefings}, vol.~11, no.~3, pp. 8--13, 2013.
-
-\bibitem{chou2013octalysis}
-Y.-K. Chou, ``Octalysis: Complete gamification framework,'' \emph{Yu-Kai Chou
-  \& Gamification}, 2013.
 
 \bibitem{brambilla2012model}
 M.~Brambilla, J.~Cabot, and M.~Wimmer, ``Model-driven software engineering in
@@ -261,6 +261,13 @@ D.~S. Kolovos, A.~Garc{\'\i}a-Dom{\'\i}nguez, L.~M. Rose, and R.~F. Paige,
   graphical model editors,'' \emph{Software \& Systems Modeling}, pp. 1--27,
   2015.
 
+\bibitem{bobkowska2014software}
+A.~E. Bobkowska, ``Software modeling from the perspective of intuitive
+  information processing,'' in \emph{Proceedings of the 2014 Mulitmedia,
+  Interaction, Design and Innovation International Conference on Multimedia,
+  Interaction, Design and Innovation}.\hskip 1em plus 0.5em minus 0.4em\relax
+  ACM, 2014, pp. 1--8.
+
 \bibitem{borstler2012teaching}
 J.~B{\"o}rstler, L.~Kuzniarz, C.~Alphonce, W.~B. Sanders, and M.~Smialek,
   ``Teaching software modeling in computing curricula,'' in \emph{Proceedings
@@ -289,13 +296,6 @@ T.~C. Lethbridge, ``Teaching modeling using umple: Principles for the
   development of an effective tool,'' in \emph{2014 IEEE 27th Conference on
   Software Engineering Education and Training (CSEE\&T)}.\hskip 1em plus 0.5em
   minus 0.4em\relax IEEE, 2014, pp. 23--28.
-
-\bibitem{bobkowska2014software}
-A.~E. Bobkowska, ``Software modeling from the perspective of intuitive
-  information processing,'' in \emph{Proceedings of the 2014 Mulitmedia,
-  Interaction, Design and Innovation International Conference on Multimedia,
-  Interaction, Design and Innovation}.\hskip 1em plus 0.5em minus 0.4em\relax
-  ACM, 2014, pp. 1--8.
 
 \bibitem{Stikkolorum2014}
 D.~R. Stikkolorum, M.~R. Chaudron, and O.~de~Bruin, ``The art of software
