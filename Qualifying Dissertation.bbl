@@ -93,10 +93,46 @@ O.~Pedreira, F.~Garc{\'\i}a, N.~Brisaboa, and M.~Piattini, ``Gamification in
   software engineering--a systematic mapping,'' \emph{Information and Software
   Technology}, vol.~57, pp. 157--168, 2015.
 
+\bibitem{fleming2006learning}
+N.~Fleming and D.~Baume, ``Learning styles again: Varking up the right tree!''
+  \emph{Educational Developments}, vol.~7, no.~4, p.~4, 2006.
+
 \bibitem{csikszentmihalyi2014toward}
 M.~Csikszentmihalyi, ``Toward a psychology of optimal experience,'' in
   \emph{Flow and the foundations of positive psychology}.\hskip 1em plus 0.5em
   minus 0.4em\relax Springer, 2014, pp. 209--226.
+
+\bibitem{krathwohl2002revision}
+D.~R. Krathwohl, ``A revision of bloom's taxonomy: An overview,'' \emph{Theory
+  into practice}, vol.~41, no.~4, pp. 212--218, 2002.
+
+\bibitem{gardner2011frames}
+H.~Gardner, \emph{Frames of mind: The theory of multiple intelligences}.\hskip
+  1em plus 0.5em minus 0.4em\relax Basic books, 2011.
+
+\bibitem{felder1988learning}
+R.~M. Felder and L.~K. Silverman, ``Learning and teaching styles in engineering
+  education,'' \emph{Engineering education}, vol.~78, no.~7, pp. 674--681,
+  1988.
+
+\bibitem{wood1976role}
+D.~Wood, J.~S. Bruner, and G.~Ross, ``The role of tutoring in problem
+  solving,'' \emph{Journal of child psychology and psychiatry}, vol.~17, no.~2,
+  pp. 89--100, 1976.
+
+\bibitem{vygotsky1978mind}
+L.~S. Vygotsky, \emph{Mind in society: The development of higher psychological
+  processes}.\hskip 1em plus 0.5em minus 0.4em\relax Harvard university press,
+  1978.
+
+\bibitem{kolb2014experiential}
+D.~A. Kolb, \emph{Experiential learning: Experience as the source of learning
+  and development}.\hskip 1em plus 0.5em minus 0.4em\relax FT press, 2014.
+
+\bibitem{keller2010motivational}
+J.~M. Keller, \emph{Motivational design for learning and performance: The ARCS
+  model approach}.\hskip 1em plus 0.5em minus 0.4em\relax Springer Science \&
+  Business Media, 2010.
 
 \bibitem{chen2007flow}
 J.~Chen, ``Flow in games (and everything else),'' \emph{Communications of the
@@ -106,16 +142,6 @@ J.~Chen, ``Flow in games (and everything else),'' \emph{Communications of the
 L.-F. Liao, ``A flow theory perspective on learner motivation and behavior in
   distance education,'' \emph{Distance Education}, vol.~27, no.~1, pp. 45--62,
   2006.
-
-\bibitem{vygotsky1978mind}
-L.~S. Vygotsky, \emph{Mind in society: The development of higher psychological
-  processes}.\hskip 1em plus 0.5em minus 0.4em\relax Harvard university press,
-  1978.
-
-\bibitem{wood1976role}
-D.~Wood, J.~S. Bruner, and G.~Ross, ``The role of tutoring in problem
-  solving,'' \emph{Journal of child psychology and psychiatry}, vol.~17, no.~2,
-  pp. 89--100, 1976.
 
 \bibitem{kao2015designing}
 G.~Y.-M. Kao, C.-H. Chiang, and C.-T. Sun, ``Designing an educational game with
@@ -128,10 +154,6 @@ F.-H. Tsai, C.~Kinzer, K.-H. Hung, C.-L.~A. Chen, and I.-Y. Hsu, ``The
   importance and use of targeted content knowledge with scaffolding aid in
   educational simulation games,'' \emph{Interactive Learning Environments},
   vol.~21, no.~2, pp. 116--128, 2013.
-
-\bibitem{krathwohl2002revision}
-D.~R. Krathwohl, ``A revision of bloom's taxonomy: An overview,'' \emph{Theory
-  into practice}, vol.~41, no.~4, pp. 212--218, 2002.
 
 \bibitem{munzenmaier2013bloom}
 C.~Munzenmaier and N.~Rubin, ``Bloom’s taxonomy: What’s old is new again,''
@@ -148,10 +170,6 @@ C.~G. von Wangenheim, R.~Savi, and A.~F. Borgatto, ``Scrumia—an educational
   game for teaching scrum in computing courses,'' \emph{Journal of Systems and
   Software}, vol.~86, no.~10, pp. 2675--2687, 2013.
 
-\bibitem{kolb2014experiential}
-D.~A. Kolb, \emph{Experiential learning: Experience as the source of learning
-  and development}.\hskip 1em plus 0.5em minus 0.4em\relax FT press, 2014.
-
 \bibitem{bliemel2014game}
 M.~Bliemel and H.~Ali-Hassan, ``Game-based experiential learning in online
   management information systems classes using intel's it manager 3,''
@@ -162,11 +180,6 @@ M.~Bliemel and H.~Ali-Hassan, ``Game-based experiential learning in online
 L.~Boctor, ``Active-learning strategies: the use of a game to reinforce
   learning in nursing education. a case study,'' \emph{Nurse education in
   practice}, vol.~13, no.~2, pp. 96--100, 2013.
-
-\bibitem{keller2010motivational}
-J.~M. Keller, \emph{Motivational design for learning and performance: The ARCS
-  model approach}.\hskip 1em plus 0.5em minus 0.4em\relax Springer Science \&
-  Business Media, 2010.
 
 \bibitem{huang2010sustaining}
 W.-H. Huang, W.-Y. Huang, and J.~Tschopp, ``Sustaining iterative game playing
