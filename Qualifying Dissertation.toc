@@ -11,27 +11,28 @@
 \contentsline {section}{\numberline {2.2}Ludology}{11}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Serious Games and Gamification}{11}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Gameful Design Method}{12}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Software Modelling}{13}{section.2.3}
+\contentsline {section}{\numberline {2.3}Software Modelling}{14}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}What is Software Modelling?}{14}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Software Modelling Tools}{15}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Abstraction in Software Modelling Learning}{16}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Software Modelling Teaching}{17}{subsection.2.3.4}
 \contentsline {subsubsection}{Contents}{17}{section*.2}
 \contentsline {subsubsection}{Teaching and Learning Practices}{18}{section*.3}
-\contentsline {subsubsection}{Tool Design}{18}{section*.4}
+\contentsline {subsubsection}{Tool Design}{19}{section*.4}
 \contentsline {subsection}{\numberline {2.3.5}Gamified Software Modelling}{19}{subsection.2.3.5}
 \contentsline {subsubsection}{Puzzle Game to Teach Software Design Principles}{19}{section*.5}
 \contentsline {subsubsection}{Explorable Board-game to Understand and Validate Enterprise Architecture}{20}{section*.6}
 \contentsline {subsubsection}{Familiar Tangible Model to Model Information Security}{20}{section*.7}
-\contentsline {subsubsection}{Arranging UML Activity Diagrams to Control the Behavior of a Game}{20}{section*.8}
-\contentsline {section}{\numberline {2.4}Research Methodology}{21}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Design Science Research Methodology}{21}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Evaluation}{23}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Research Data Management}{23}{subsection.2.4.3}
-\contentsline {chapter}{\numberline {3}Proposal}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Research Questions}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Objectives}{25}{section.3.2}
-\contentsline {section}{\numberline {3.3}Research Outputs}{26}{section.3.3}
+\contentsline {subsubsection}{Arranging UML Activity Diagrams to Control the Behavior of a Game}{21}{section*.8}
+\contentsline {section}{\numberline {2.4}Summary}{21}{section.2.4}
+\contentsline {chapter}{\numberline {3}Proposal}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Research Questions}{22}{section.3.1}
+\contentsline {section}{\numberline {3.2}Objectives}{22}{section.3.2}
+\contentsline {section}{\numberline {3.3}Research Outputs}{23}{section.3.3}
+\contentsline {section}{\numberline {3.4}Research Methodology}{24}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Design Science Research Methodology}{24}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Evaluation}{25}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Research Data Management}{26}{subsection.3.4.3}
 \contentsline {chapter}{\numberline {4}Preliminary Results}{27}{chapter.4}
 \contentsline {section}{\numberline {4.1}Preliminary Survey}{27}{section.4.1}
 \contentsline {section}{\numberline {4.2}Design Requirements}{30}{section.4.2}
