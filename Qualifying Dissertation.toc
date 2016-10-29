@@ -18,16 +18,16 @@
 \contentsline {subsection}{\numberline {2.3.4}Software Modelling Teaching}{17}{subsection.2.3.4}
 \contentsline {subsubsection}{Contents}{17}{section*.2}
 \contentsline {subsubsection}{Teaching and Learning Practices}{18}{section*.3}
-\contentsline {subsubsection}{Tool Design}{19}{section*.4}
+\contentsline {subsubsection}{Tool Design}{18}{section*.4}
 \contentsline {subsection}{\numberline {2.3.5}Gamified Software Modelling}{19}{subsection.2.3.5}
 \contentsline {subsubsection}{Puzzle Game to Teach Software Design Principles}{19}{section*.5}
 \contentsline {subsubsection}{Explorable Board-game to Understand and Validate Enterprise Architecture}{20}{section*.6}
 \contentsline {subsubsection}{Familiar Tangible Model to Model Information Security}{20}{section*.7}
-\contentsline {subsubsection}{Arranging UML Activity Diagrams to Control the Behavior of a Game}{21}{section*.8}
+\contentsline {subsubsection}{Arranging UML Activity Diagrams to Control the Behavior of a Game}{20}{section*.8}
 \contentsline {section}{\numberline {2.4}Research Methodology}{21}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Design Science Research Methodology}{22}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Design Science Research Methodology}{21}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Evaluation}{23}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Research Data Management}{24}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Research Data Management}{23}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Proposal}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Research Questions}{25}{section.3.1}
 \contentsline {section}{\numberline {3.2}Objectives}{25}{section.3.2}

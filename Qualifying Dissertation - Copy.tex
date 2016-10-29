@@ -71,7 +71,7 @@ Software modelling is commonly perceived as a difficult subject since it require
 
 The problem of learning appropriate abstraction skills for software modelling is similar to problems in mathematics, where most of the concepts can only be accessed through symbolical representations \cite{Duval2006}. Abstraction also requires students to grasp skills in information hiding, generalisation, approximation or reformulation and separating relevant from irrelevant aspects \cite{Saitta2013}. To overcome these challenges, we need to put more effort into software modelling learning design, developing a more concrete and motivating presentation which can engage students and facilitate deep learning.
 
-In the recent years, the use of games and game elements for purposes other than leisure has drawn significant attention. Gamification \cite{deterding2011game} and Serious Games \cite{Michael2005} (further when we use 'gamification' term to comprise both concepts) have been proposed as solutions to motivational problems that emerge when users are required to engage in activities that they perceive as boring, irrelevant, or difficult. Figure \ref{gamification-trend} shows us the growth of "Gamification" on Google Trends\footnote{\url{https://www.google.com/trends/explore?date=all&q=\%22gamification\%22}} since February 2010. 
+In the recent years, the use of games and game elements for purposes other than leisure has drawn significant attention. Gamification \cite{deterding2011game} and Serious Games \cite{Michael2005} (further we use 'Gamified Approach' term to comprise both concepts) have been proposed as solutions to motivational problems that emerge when users are required to engage in activities that they perceive as boring, irrelevant, or difficult. Figure \ref{gamification-trend} shows us the growth of "Gamification" on Google Trends\footnote{\url{https://www.google.com/trends/explore?date=all&q=\%22gamification\%22}} since February 2010. 
 
 \begin{figure}[ht]
 \centering
@@ -80,19 +80,15 @@ In the recent years, the use of games and game elements for purposes other than 
 \label{gamification-trend}
 \end{figure}
 
-Real-world examples that show the success of the gamification is Duolingo\footnote{\url{https://www.duolingo.com/
+Real-world examples that show the success of the Gamified Approach is Duolingo\footnote{\url{https://www.duolingo.com/
 }} and Re-mission\footnote{\url{http://www.re-mission.net/
 }}. Duolingo is a gamified system of language learning. It embeds game elements, such as points, levels, and lives, to make language learning more fun. Re-mission is a third-person shooting game dedicated to young cancer patients and designed to teach and learn how to deal with cancer. The patients are invited to involve in an entertaining gameplay that will affect their specific behavioural and psychological outcomes producing effective cancer therapy.
  
 Through a systematic review, Connolly et al. studied the impact of computer games and serious games on engagement and learning in diverse fields. They reported the majority of the studies presented empirical evidence about the positive impact of computer games and serious games \cite{connolly2012systematic}. Using the same type of method, Hamari et al. found that according to the majority of the reviewed papers, gamification does generate benefits and positive effects \cite{hamari2014does}. Specifically in the field of software engineering, Pedreira el al. also performed a systematic review on the application of gamification in software engineering. Most existing studies focus on software development, project management, requirements, and other support areas, but none of them focuses on software modelling. They also found fewer studies reporting empirical evidence of their work. They argued that existing studies in the field be quite new, thus more research effort is needed on investigating the impact of gamiﬁcation in software engineering \cite{Pedreira2015}. 
 
-The report of the positive impact of gamification in various fields encourages us to apply it in software modelling learning, a subject that has received little attention so far. This situation broadens our opportunity to produce novel research contribution regarding the application of gamification in the field of software modelling. Grouded on this background, we propose a main research question, ``Can gamification improve software modelling learning?". `Improve' means that learners have a significant improvement in their engagement and performance in learning software modelling.   
-
-At the beginning, we plan to address software modelling in  Model-Driven Engineering as a whole---comprising modelling, metamodelling, and model transformation. However, after consideration regarding scope and time, we adjust our scoping only focusing on graphical software modelling, which is a main way to express models in modelling and metamodelling. We excluded model transformation since its approaches are commonly expressed in textual way. Moreover, we keep including metamodelling since a metamodel itself is a model of models and usually is expressed in the form of class diagram-like graphics.     
+The report of the positive impact of Gamified Approach in various fields encourages us to apply the Gamified Approach in software modelling learning, a subject that has received little attention so far. This situation broadens our opportunity to produce novel research contribution regarding the application of gamification in the field of software modelling.  
 
 Instead of developing the software modelling games manually, we plan to follow a model-based approach. We will develop a design framework for the games, that will systematically and semi-automatically drive gamification design to produce software modelling learning games. Essentially, our study lies in the intersection between software modelling, learning, and games as depicted in Figure \ref{smlg}. Therefore, pedagogical aspect cannot be neglected. We will apply several learning models from pedagogy to drive the design of our learning game. 
-
-The remainder of this report is organised as follows. We provide a detailed literature review in Section 2 and propose the research proposal as well as the research methodology in Section 3. Finally, in Section 4, we end this qualifying dissertation with a discussion on our preliminary results. 
 
 \begin{figure}[ht]
 \centering
@@ -100,6 +96,8 @@ The remainder of this report is organised as follows. We provide a detailed lite
 \caption{How to 'Cook' a Gameful Software Modelling Learning?}
 \label{smlg}
 \end{figure}
+
+The remainder of this report is organised as follows. We provide a detailed literature review in Section 2 and propose the research proposal in Section 3. Finally, in Section 4, we end this qualifying dissertation with a discussion on our preliminary results. 
 
 \chapter{Field Survey and Review}
 \label{Field Survey and Review}
@@ -275,29 +273,51 @@ There are two approaches to learning software modelling which a learner may perf
 We have investigated related literature regarding the teaching and learning of software modelling. From the literature, we have identified lessons and categorised them into three groups: contents, teaching or learning practices, and tool design. We will take into account the lessons learnt from the previous work during the design process of our gamified software modelling learning. 
 
 \subsubsection{Contents}
-Contents mean the software modelling topics and their structures. In teaching software modelling, we need to teach the core, important concepts and their relation with the contexts and applications of the outside world. The contents of software modelling learning should address software modelling definition at first \cite{borstler2012teaching} and then teach modelling foundation, such as semantics, syntaxes, and notation \cite{borstler2012teaching}. However, the teaching should focus more on semantics, not only syntax \cite{borstler2012teaching}, and improving the use of language, not just vocabulary \cite{bezivin2009teaching}. 
+Contents mean the software modelling topics and their structures. In teaching software modelling, we need to teach the core, important concepts and their relation with the contexts and applications of the outside world. The contents of software modelling learning should be:
+\begin{enumerate}
+\item Software modelling definition \cite{borstler2012teaching}.
+\item Semantics, syntaxes, notations. Teach modelling foundations, but focus more on semantics, not only syntax \cite{borstler2012teaching}. Improve use of language, not only vocabulary \cite{bezivin2009teaching}.
+\item Modelling, metamodelling, and model transformation. Focus on the core, important concepts: modelling, meta-modelling, and model transformation. Teach modelling that comprises the following topics: formal and informal models, partial and complete models, the distinction between models and programs \cite{bezivin2009teaching}. Metamodelling is given a larger portion than modelling since a model might conform to more than one metamodel \cite{ober2007teaching}.
+\item Software modelling is engineering. Teach the engineering aspects of software modelling: understanding a domain, planning and resourcing, documentation, quality, formality, validity, optimisation \cite{paige2014bad}.
+\item Contexts and practices/applications in various domains \cite{paige2014bad}. Teach the application of software modelling in various domains, success stories, code generations, model discovery, and model-driven interoperability. Make the model executable. Still, the power of execution makes it much easier to understand the model \cite{bezivin2009teaching}. Convey the practical applications of modelling \cite{borstler2012teaching}.
+\end{enumerate}
 
-The core, important concepts of Model Driven Engineering---modelling, metamodelling, and model transformation---should be taught. Teaching modelling should comprise the following topics: formal and informal models, partial and complete models, and the distinction between models and programs \cite{bezivin2009teaching}. Nevertheless, metamodelling should be given a larger portion than modelling since a model might conform to more than one metamodel \cite{ober2007teaching}. 
-
-Software modelling is an engineering subject. Therefore, we should teach the engineering aspects of software modelling, such as  understanding a domain, planning and resourcing, documentation, quality, formality, validity, and optimisation \cite{paige2014bad}.
-
-Another important topic in teaching software modelling is the practices or applications of software modelling in various domains \cite{ borstler2012teaching, paige2014bad}, including their success stories, code generations, model discovery, and model-driven interoperability. It's best to make model executable, since the power of execution makes it much easier to understand the model \cite{bezivin2009teaching}.
 
 \subsubsection{Teaching and Learning Practices}
-Throughout our literature review, we identified some teaching and learning practices of software modelling suggested by experts based on their experience teaching software modelling. The practices are discussed in the following paragraphs.
-
-Modelling is the process to think abstractly about systems. Therefore, we teach modelling to make students understand the value of abstraction \cite{bezivin2009teaching}. Successful application of Model-Driven Software Development requires skills in abstract modelling \cite{whittle2013industrial}. Software modelling shoud be taught with prerequisites \cite{paige2014bad}. Thefore, The learners should have a good programming background \cite{bezivin2009teaching} or has to know a little about OOP \cite{Akayama2013}. However, for introduction to modelling in computer science/sotware engineering progammes, we can teach modelling alongside with programming \cite{borstler2012teaching, bezivin2009teaching}. In this way, students can learn modelling as early as possible \cite{Akayama2013, borstler2012teaching}. 
-
-In teaching software modelling, we should encourage students to produce "good" models and measure the "quality". One way to to this is using tools \cite{Akayama2013}. Problem-solving in software modelling should be taught first, modelling language specification and modelling tools get in the way \cite{paige2014bad}. We should provide solutions, not answers \cite{paige2014bad} and teach modelling language broadly, not deeply \cite{paige2014bad}, and throughout\cite{borstler2012teaching}. Students need to experience the whole cycle of modelling in a software engineering project, so they learn to decide which development process is more appropriate than the others \cite{Akayama2013}. Refer to other disciplines or other aspects related to software modelling \cite{paige2014bad}.
-
-Even though code generation is essential to understand modelling \cite{liebel2015ready}, teach other applications (benefits) of software modelling at first. Code generation comes later \cite{paige2014bad}. Be careful when using analogies and physical decomposition since they might not reflect the complexity of the system; one component might have a cross-cutting effect to other layers of the system \cite{paige2014bad}.  It is good to teach modelling with a standard language, such as UML \cite{bezivin2009teaching}, but teach modelling and meta-modelling using other modelling languages as well, not just UML. Software modelling is not a UML modelling course \cite{paige2014bad}. A significant number of successful Model-driven Software Development companies build their own modelling languages and generators, suggesting a re-orientation of education away from UML notation to fundamental modelling principles \cite{whittle2013industrial}. Choose a playful domain or fun problems, not serious domain \cite{paige2014bad}.
+Teaching and learning practices are the principles, values, and methods of teaching or learning software modelling. The followings are them:
+\begin{enumerate}
+\item Modelling is the process to think abstractly about systems. Therefore, we teach modelling to make students understand the value of abstraction \cite{bezivin2009teaching}. Successful application of Model-Driven Software Development requires skills in abstract modelling \cite{whittle2013industrial}.
+\item Teach with prerequisites \cite{paige2014bad}. The student should have a good programming background \cite{bezivin2009teaching} or has to know a little about OOP \cite{Akayama2013}.
+\item Encourage students to produce "good" models and measure the "quality". One way is to use tools \cite{Akayama2013}.
+\item Learn modelling as early as possible \cite{Akayama2013}, \cite{borstler2012teaching}. Teach modelling together with programming \cite{borstler2012teaching}. Modelling should be developed alongside programming \cite{bezivin2009teaching}.
+\item Problem-solving first, modelling language specification and modelling tools get in the way \cite{paige2014bad}.
+\item Provide solutions, not answers \cite{paige2014bad}.
+\item Teach modelling language broadly, not deeply \cite{paige2014bad}, and throughout \cite{borstler2012teaching}). Students need to experience the whole cycle of modelling in a software engineering project, so they learn to decide which development process is more appropriate than the others \cite{Akayama2013}.
+\item Refer to other disciplines or other aspects related to software modelling \cite{paige2014bad}.
+\item Even though code generation is essential to understand modelling \cite{liebel2015ready}, teach other applications (benefits) of software modelling at first. Code generation comes later \cite{paige2014bad}.
+\item Be careful when using analogies and physical decomposition since they might not reflect the complexity of the system; one component might have a cross-cutting effect to other layers of the system \cite{paige2014bad}. 
+\item It is good to teach modelling with a standard language, such as UML \cite{bezivin2009teaching}, but teach modelling and meta-modelling using other modelling languages as well, not just UML. Software modelling is not a UML modelling course \cite{paige2014bad}. A significant number of successful Model-driven Software Development companies build their own modelling languages and generators, suggesting a re-orientation of education away from UML notation to fundamental modelling principles \cite{whittle2013industrial}.
+\item Choose a playful domain or fun problems, not serious domain \cite{paige2014bad}.
+\end{enumerate}
 
 \subsubsection{Tool Design}
-Tools design is the principles in designing software modelling tools. Since we are going to develop a tool that can support learners to learn software modelling, lessons in this category will have important in guiding the design of our tool. 
+Tools design are the principles in designing software modelling tools. Since we are going to develop a tool that can support learners to learn software modelling, lessons in this category will have important in guiding the design of our tool. 
+\begin{enumerate}
+\item Learning modelling tools is not trivial \cite{paige2014bad}. 
+\item Build knowledge and skills incrementally \cite{lethbridge2014teaching}.
+\item Use papers, tools designed for pedagogy, or use mainstream tools \cite{Akayama2013}.
+\item The usage of modelling tools is not important in the beginning, but later when the modelling task becomes larger \cite{bezivin2009teaching}.
+\item A good experience with the tool, has a positive inﬂuence on the students’ view of UML and modelling in general \cite{liebel2015ready}.
+\item Support for tool usage greatly affects student satisfaction. Provide Tool Expert and carefully design the instructions if you are using Industry Modelling Tool \cite{liebel2015ready}. For example, Papyrus is suitable for a classroom environment if given the right level of support \cite{liebel2015ready}.
+\item Give positive reinforcement to learners \cite{lethbridge2014teaching}.
+\item The tools offer maximum opportunities for learning \cite{lethbridge2014teaching}.
+\item The tool convinces learners of the value of what they learn \cite{lethbridge2014teaching}.
+\item Focus on high usability \cite{lethbridge2014teaching}.
+\item The tool is inexpensive \cite{lethbridge2014teaching}.
+\end{enumerate}
 
-We can teach software modelling using papers, tools designed for pedagogy, or mainstream tools \cite{Akayama2013}. Each comes with its advantages and drawbacks. For introduction, paper is a good choice since the usage of modelling tools is not important in the beginning, but later when the modelling task becomes larger, more advanced tools could be considered \cite{bezivin2009teaching}. However, Learning modelling tools is not trivial \cite{paige2014bad}. Considerable efforts required to become fluent using a tool. Therefore, a good experience with the tool, has a positive inﬂuence on learners' view on modelling \cite{liebel2015ready}. Likewise, support for tool usage also affects student satisfaction greatly. So, if industry modelling tools are used, ensure to provide adequate supports, such as providing tool expert and carefully designing the instructions \cite{liebel2015ready}. For example, Papyrus is suitable for a classroom environment if it is given with the right level of support \cite{liebel2015ready}.
 
-Based on his experience developing an educational software modelling tool, Lethbridge \cite{lethbridge2014teaching} proposed these following best practices to produce  a good educational modelling tool: (1) build knowledge and skills incrementally, (2) give positive reinforcement to learners, (3) the tools offer maximum opportunities for learning, (4) the tool convinces learners of the value of what they learn, (5) focus on high usability, and (6) the tool is inexpensive.
+
 
 \subsection{Gamified Software Modelling}
 Most of the gamification studies available are dominantly related to software engineering in a larger context or other aspects of software engineering, such as software implementation and project management, rather than software modelling in particular \cite{Pedreira2015}. Studies that apply gamification specifically for software modelling include the works of Stikkolorum et al. \cite{Stikkolorum2014}, Ionita et al. \cite{Ionita2015}, Groenewegen et al. \cite{Groenewegen2010}, and Richardsen \cite{Richardsen2014}. 
