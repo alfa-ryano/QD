@@ -14,11 +14,11 @@
 \contentsline {section}{\numberline {2.3}Software Modelling}{13}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}What is Software Modelling?}{14}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Software Modelling Tools}{15}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Abstraction in Software Modelling Learning}{15}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Software Modelling Teaching}{17}{subsection.2.3.4}
-\contentsline {subsubsection}{Contents}{17}{section*.2}
+\contentsline {subsection}{\numberline {2.3.3}Software Modelling Teaching}{15}{subsection.2.3.3}
+\contentsline {subsubsection}{Contents}{16}{section*.2}
 \contentsline {subsubsection}{Teaching and Learning Practices}{17}{section*.3}
-\contentsline {subsubsection}{Tool Design}{18}{section*.4}
+\contentsline {subsubsection}{Tool Design}{17}{section*.4}
+\contentsline {subsection}{\numberline {2.3.4}Abstraction in Software Modelling Learning}{18}{subsection.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}Gamified Software Modelling}{19}{subsection.2.3.5}
 \contentsline {subsubsection}{Puzzle Game to Teach Software Design Principles}{19}{section*.5}
 \contentsline {subsubsection}{Explorable Board-game to Understand and Validate Enterprise Architecture}{19}{section*.6}
